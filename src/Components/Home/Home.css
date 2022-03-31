@@ -1,0 +1,140 @@
+.h {
+	color: black;
+	background-color: #faf5ea;
+}
+.row {
+	--bs-gutter-y: 0;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: calc(-1 * var(--bs-gutter-y));
+	margin-right: -8px;
+	margin-left: -24px;
+}
+
+.birdimg {
+	padding-top: 20px;
+}
+.home-welcome {
+	padding-top: 63px;
+	color: #a37931;
+	margin-left: -48px;
+	letter-spacing: -1px;
+	font-weight: bold;
+}
+.home-welcomep {
+	padding-top: 78px;
+	/* padding-left: 10px; */
+	font-size: 15px;
+	color: #7bc236;
+	font-weight: bold;
+	font-style: italic;
+}
+.welcome-body {
+	color: #635e54;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: justify;
+	padding-left: 100px;
+	margin-top: -40px;
+}
+.home-link {
+	color: #0088cc;
+	font-weight: bold;
+	text-decoration: none;
+}
+.sub-headers {
+	color: #3ea2de;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 27px;
+	font-weight: normal;
+	line-height: 20px;
+	margin-left: -88px;
+	padding-top: 10px;
+	font-weight: 500;
+}
+.separator {
+	padding-left: 60px;
+}
+.banner1 {
+	margin-left: -88px;
+}
+
+ul li {
+	list-style: url(/src/assests/Images/mark.jpeg);
+	padding-left: 10px;
+	/* font-family: "Times New Roman", Times, serif; */
+	color: #755f47;
+	font-weight: 600;
+}
+.list1 {
+	padding-top: 10px;
+	margin-left: -105px;
+	line-height: 25px;
+}
+.banner2 {
+	padding-left: 80px;
+}
+.links {
+	text-decoration: none;
+}
+.home-link2 {
+	color: #d57a27;
+	font-size: 12px;
+	font-weight: bold;
+
+	cursor: pointer;
+	text-decoration: none;
+}
+.banner3 {
+	max-width: 146%;
+	height: auto;
+	vertical-align: middle;
+	border: 0;
+	margin-left: -94px;
+}
+
+.btn {
+	background: url(/src/assests/Images/btn.png) repeat !important;
+	background-repeat: repeat-y;
+	border-radius: 5px !important;
+	/* border: none !important; */
+	color: #fff !important;
+	text-shadow: none !important;
+	margin-left: -94px;
+}
+
+.sub-headers1 {
+	color: #3ea2de;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 27px;
+	font-weight: normal;
+	line-height: 20px;
+
+	padding-top: 15px;
+	font-weight: 500;
+}
+
+.welcome-body1 {
+	color: #635e54;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: justify;
+	padding-top: 20px;
+}
+
+.separator2 {
+	width: 300px;
+}
+.welcome-body2 {
+	color: #635e54;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: justify;
+}
+.title1 {
+	/* margin-left: -130px; */
+
+	font-size: 13px;
+	color: #7bc236;
+	font-weight: bold;
+}

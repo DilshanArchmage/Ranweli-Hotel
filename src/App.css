@@ -1,5 +1,11 @@
+*{
+  
+
+}
 .App {
   text-align: center;
+  
+  
 }
 
 .App-logo {
@@ -35,4 +41,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+.body-container{
+  max-width: 1035px;
+ 
+  
+}
+.secondfooter{
+  padding-top: -10px;
+}
+
+body {
+  
+ 
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  text-align: justify;
+  color: #6e5941;
+  line-height: 18px;
+  background: url(/src/assests/Images/pagebg.png);
+  
 }

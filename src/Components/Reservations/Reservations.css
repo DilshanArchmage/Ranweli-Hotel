@@ -1,0 +1,28 @@
+.astric {
+	color: red;
+}
+.inputs {
+	height: 28px;
+
+	padding: 0 3px !important;
+	box-shadow: none;
+	background: #f8f8f8;
+	border: 1px solid #b7b7b7;
+	max-width: 400px;
+}
+
+.submit {
+	color: #ffffff;
+	cursor: pointer;
+	display: inline-block;
+	line-height: 35px;
+	background: #000;
+	padding: 0px 20px;
+	vertical-align: middle;
+	font-size: 18px;
+	min-width: 80px;
+	min-height: 35px;
+	font-family: Segoe UI;
+	border: 1px solid transparent;
+	margin: 5px;
+}

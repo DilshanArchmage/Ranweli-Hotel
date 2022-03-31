@@ -1,0 +1,13 @@
+.aboutus-body {
+	/* color: red; */
+	background: url(/src/assests/Images/footerbg.png);
+	--bs-gutter-y: 0;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: calc(-1 * var(--bs-gutter-y));
+	margin-right: -8px;
+	margin-left: -24px;
+}
+.s {
+	color: red;
+}

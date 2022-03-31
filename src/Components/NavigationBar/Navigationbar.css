@@ -1,0 +1,35 @@
+.navigation-bar {
+	background: url("/src/assests/Images/header_bg.png");
+	margin-top: 20px;
+	padding-top: 1px;
+	padding-top: 0.3125rem;
+	padding-bottom: 0.3125rem;
+	margin-right: 1rem;
+	font-size: 1.25rem;
+	text-decoration: none;
+	white-space: nowrap;
+	padding-top: 0px;
+	height: 100px;
+}
+
+.nav-logo {
+	width: 235px;
+}
+.navlink-menu {
+	color: #875a29;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding-right: 100px;
+	padding-top: 50px;
+	font-weight: bold;
+}
+/* .facebook-icon{
+    padding-bottom: 20px;
+} */
+.secondNav {
+	padding-top: 60px;
+	padding-right: 20px;
+}
+.nav-menu :hover {
+	color: black;
+}
