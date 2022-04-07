@@ -1,6 +1,11 @@
+.Rh{
+	
+		color: black;
+		background-color: #faf5ea;
+		width: 100%vw;
+	
+}
 .head-img {
-	margin-left: -12px;
+	max-width: fit-content;
 }
-.hello {
-	list-style: none;
-}
+

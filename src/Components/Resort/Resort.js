@@ -31,10 +31,18 @@ export default function Resort() {
 	return (
 		<div>
 			<Container>
-				<Row className="h">
-					<div className="col-md-12">
-						<img className="head-img" src={the_resort} />
-					</div>
+				<Row className="Rh">
+				
+					<div className=" ">
+						<p>
+							
+						<img width="100%vw" src={the_resort}/>
+						</p>
+                 
+
+                </div>
+					
+					
 
 					<div className="col-md-8">
 						<div className="d-flex">

@@ -1,5 +1,5 @@
 .bird-subtitle1 {
-	margin-left: -40px;
+	
 	font-size: 16px;
 	color: #7bc236;
 	font-weight: bold;
@@ -15,8 +15,8 @@
 
 .resortbird-watching {
 	padding-top: 31px;
-	padding-left: -9px;
-	margin-left: -40px;
+	max-width: 100%;
+	
 }
 .birdResortactivity-body {
 	color: #635e54;

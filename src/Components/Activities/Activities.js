@@ -18,8 +18,8 @@ import SecondNavBar from "../NavigationBar/SecondNavBar/SecondNavBar";
 export default function Activities() {
 	return (
 		<div>
-			<Container>
-				<Row className="h">
+			<Container >
+				<Row className="Ah">
 					<div className="col-md-8">
 						<div className="d-flex">
 							<img className="birdimg" src={bird} />
@@ -28,7 +28,14 @@ export default function Activities() {
 							<p className="title11">Bird Watching</p>
 						</div>
 						<div className="welcome-body">
-							<img className="bird-watching" src={birdWatchingBanner} />
+							<Row>
+							<div className="col-md-12">
+							<img className="bird-watching mr-auto" src={birdWatchingBanner} />
+
+							</div>
+							</Row>
+							
+							
 							<p className="activity-body">
 								Sri Lanka is blessed with an abundant avifauna. There are 226
 								resident birds, 133 migrants, 90 vagrants and 33 endemics (26
@@ -69,7 +76,13 @@ export default function Activities() {
 							</ul>
 
 							<p className="title2">Cycling</p>
-							<img className="cycling" src={cyclingBanner} />
+							<Row>
+							<div className="col-md-12">
+							<img className="cycling mr-auto" src={cyclingBanner} />
+
+							</div>
+							</Row>
+							
 							<p className="activity-body">
 								Two exciting tours on bicycles through the lush countryside is
 								available. These provide an opportunity to enjoy the natural

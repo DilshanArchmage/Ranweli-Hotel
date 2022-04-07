@@ -26,7 +26,14 @@ export default function Facilities() {
 							<p className="bird-subtitle1">Restaurant and Bars</p>
 						</div>
 						<div className="birdwelcome-body">
-							<img className="resortbird-watching" src={restaurant_bar} />
+							
+							<div className="col-md-12">
+							<img  width="100%vw" src={restaurant_bar} />
+
+</div>
+							
+							
+							
 							<p className="birdResortactivity-body">
 								Ranweli's restaurant, offers a delicious buffet and a' la carte
 								Sri Lankan and International cuisine. Vegetarian meals are
@@ -84,7 +91,7 @@ export default function Facilities() {
 							</p>
 
 							<p className="bird-subtitle1">Sports Facilities</p>
-							<img className="resortbird-cycling" src={sport} />
+							<img className="resortbird-cycling"  width="100%vw" src={sport} />
 							<p className="birdResortactivity-body">
 								In order to preserve the tranquility and ambiance of the
 								property, Ranweli offers only soft-impact sports and games
@@ -120,7 +127,7 @@ export default function Facilities() {
 							</p>
 
 							<p className="bird-subtitle1">Shops</p>
-							<img className="resortbird-cycling" src={shopsBanner} />
+							<img className="resortbird-cycling"  width="100%vw" src={shopsBanner} />
 
 							<p>
 								<b className="birdrest-subheading">
@@ -151,6 +158,7 @@ export default function Facilities() {
 
 							<p className="bird-subtitle1">Evening Entertainment</p>
 							<img
+							    width="100%vw"
 								className="resortbird-cycling"
 								src={eveningEntertainmentBanner}
 							/>
@@ -171,7 +179,7 @@ export default function Facilities() {
 							</ul>
 
 							<p className="bird-subtitle1">Ayurveda</p>
-							<img className="resortbird-cycling" src={AyurvedaYogaBanner} />
+							<img className="resortbird-cycling"  width="100%vw" src={AyurvedaYogaBanner} />
 							<p className="birdResortactivity-body">
 								Ranweli's idyllic location provides tranquility and serenity
 								amidst an expanse of land covering over 22 acres and featuring
@@ -190,7 +198,7 @@ export default function Facilities() {
 
 							<p className="bird-subtitle1">Other Facilities</p>
 
-							<img className="resortbird-cycling" src={otherFacilitiesBanner} />
+							<img  width="100%vw" className="resortbird-cycling" src={otherFacilitiesBanner} />
 
 							<p>
 								<b className="birdrest-subheading">

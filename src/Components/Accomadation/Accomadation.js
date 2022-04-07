@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Col, Row, Container, Button } from "react-bootstrap";
+import { Col, Row, Container, Button} from "react-bootstrap";
 import "./Accomadation.css";
 
 import bird from "../../assests/Images/kingfish.png";
@@ -22,11 +22,16 @@ export default function Accomadation() {
 	return (
 		<div>
 			<Container>
-				<Row className="h">
-				<div className="col-md-12">
-                 <img className="head-img" src={accomodation}/>
+				
+				<Row className=" h">
+					<Row>
+					<div className="col-md-12 row-fluid head-img">
+                 <img width="105%vh" src={accomodation}/>
 
                 </div>
+					</Row>
+					
+				
 					<div className="col-md-8">
 						<div className="d-flex">
 							<img className="birdimg" src={bird} />
@@ -129,13 +134,21 @@ export default function Accomadation() {
 					</div>
 
 					<div className="col-md-4">
-						<img className="acco-img" src={room_types} />
+						<Row>
+							<div className="col-md-12">
+							<img className="acco-img" src={room_types} />
+							</div>
+
+						</Row>
+						
 					</div>
+					
 					<br></br>
 					<br></br>
 				</Row>
 
 				<Footer />
+				
 			</Container>
 		</div>
 	);
