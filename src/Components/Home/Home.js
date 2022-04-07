@@ -143,9 +143,7 @@ export default function Home() {
 						</div>
 					</div>
 
-					<div>
-						<h1>#GOGOTAHOME2022</h1>
-					</div>
+					
 					<div className="col-md-4">
 						<h3 className="sub-headers1">
 							<b>Holiday Check Award</b>
