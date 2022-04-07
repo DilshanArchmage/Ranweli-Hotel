@@ -2,23 +2,27 @@
     "id":1,
     "topic":"Wild Asia Responsible Tourism Awards",
     "desc":"Ranweli Holiday Village has been recognized as a 2013 Wild Asia Responsible Tourism Awards Finalist.",
-    "img":"https://web.archive.org/web/20200223115600im_/http://www.ranweli.com/templates/ranweli/timthumb.php?h=150&w=250&src=images/photo08.jpg"
+    "img":"https://web.archive.org/web/20200217045949im_/http://ranweli.com/templates/ranweli/timthumb.php?h=150&w=250&src=images/Tourism_Awards.gif"
 },
 {
     "id":2,
     "topic":"HolidayCheck Award 2013",
-    "desc":"Ranweli Holiday Village has been rewarded with a HolidayCheck Award 2013!"
+    "desc":"Ranweli Holiday Village has been rewarded with a HolidayCheck Award 2013!",
+    "img":"https://web.archive.org/web/20200217045949im_/http://ranweli.com/templates/ranweli/timthumb.php?h=150&w=250&src=images/holiday_check.png"
+
 },
 {
     "id":3,
     "topic":"Trip Advisor Travellers' Choice Award 2013",
-    "desc":"Ranweli has won the Trip Advisor Travellers' Choice Award 2013!"
+    "desc":"Ranweli has won the Trip Advisor Travellers' Choice Award 2013!",
+    "img":"https://web.archive.org/web/20200217045949im_/http://ranweli.com/templates/ranweli/timthumb.php?h=150&w=250&src=images/trip_advisor.png"
+
 },
 {
     "id":4,
     "topic":"The British School of Colombo visited Ranweli",
     "desc":"The British School of Colombo visited Ranweli for an Educational Tour for the 4th consecutive year in November 2012. All tours were professionally organized and conducted by the Eco Department of Ranw ........",
-    "img":"https://web.archive.org/web/20200223115600im_/http://www.ranweli.com/templates/ranweli/timthumb.php?h=150&w=250&src=images/photo08.jpg"
+    "img":"https://web.archive.org/web/20200217045949im_/http://ranweli.com/templates/ranweli/timthumb.php?h=150&w=250&src=images/bs_nature_walk.jpg"
 
 },
 {
@@ -90,19 +94,23 @@
     "id":14,
     "topic":"Visit of the World’s Leading Eco Lodge Architect – ARQ. Hitesh Mehta",
     "desc":"Hitesh Mehta, the world leading ecolodge architect visited Ranweli Holiday Village to research material for his book 'Leading Ecolodges of the World'. Ranweli Holiday Village will be among 35 around t ........",
-    "img":"https://web.archive.org/web/20200223115600im_/http://www.ranweli.com/templates/ranweli/timthumb.php?h=150&w=250&src=images/photo11.jpg"
+    "img":"https://web.archive.org/web/20200223115600im_/http://www.ranweli.com/templates/ranweli/timthumb.php?h=150&w=250&src=images/photo07.jpg"
 
 
 },
 {
     "id":15,
     "topic":"Hector Cabellos-Lascurain, Ecotourism Consultant Visits Ranweli",
-    "desc":"Mr. Hector Ceballos-Lascurain is an architect, environmentalist and Ecotourism/cultural tourism expert based in Mexico. He was the first to coin the term 'Ecotourism' back in 1983. He is a special adv ........"
+    "desc":"Mr. Hector Ceballos-Lascurain is an architect, environmentalist and Ecotourism/cultural tourism expert based in Mexico. He was the first to coin the term 'Ecotourism' back in 1983. He is a special adv ........",
+    "img":"https://web.archive.org/web/20200223115600im_/http://www.ranweli.com/templates/ranweli/timthumb.php?h=150&w=250&src=images/photo09.jpg"
+
 
 },
 {
     "id":16,
     "topic":"CEO of Ranweli Holiday Village Makes a Presentation to Students at the University of Applied Sciences, Berlin",
-    "desc":"Our former CEO Mr. Chandra De Silva was invited by the University of Applied Sciences, Eberswalde in Berlin to deliver a presentation for post graduate students in Sustainable Tourism Management. The ........"
+    "desc":"Our former CEO Mr. Chandra De Silva was invited by the University of Applied Sciences, Eberswalde in Berlin to deliver a presentation for post graduate students in Sustainable Tourism Management. The ........",
+    "img":"https://web.archive.org/web/20200223115600im_/http://www.ranweli.com/templates/ranweli/timthumb.php?h=150&w=250&src=images/photo08.jpg"
+
 }
 ]

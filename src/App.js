@@ -20,7 +20,7 @@ import EnvironmentPolicies from "./Components/EnvironmentPolicies/EnvironmentPol
 import Ayurweda from "./Components/Ayurweda/Ayurweda";
 import Reservations from "./Components/Reservations/Reservations";
 import WhatsNew from "./Components/WhatsNew/WhatsNew";
-import Page1 from "./Components/WhatsNew/Page1";
+
 import Gallery from "./Components/Gallery/Gallery";
 import Contactus from "./Components/Contactus/Contactus";
 import Partners from "./Components/Partners/Partners";
@@ -52,7 +52,7 @@ function App() {
 								<Route path="/ayurweda" element={<Ayurweda />} />
 								<Route path="/reservation" element={<Reservations />} />
 								<Route path="/whatsnew" element={<WhatsNew />} />
-								<Route path="/page1" element={<Page1 />} />
+								
 								<Route path="/gallery" element={<Gallery />} />
 								<Route path="/contact" element={<Contactus />} />
 								<Route path="/video" element={<Videos />} />

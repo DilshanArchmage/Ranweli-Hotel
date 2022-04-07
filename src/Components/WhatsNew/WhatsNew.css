@@ -41,6 +41,11 @@ tr{
 	background-color: white;
 	padding-left: 20px;
 }
+td{
+    color: #996600;
+    font-weight: bold;
+    text-decoration: none;
+}
 .whts-tab{
 	margin-top: 20px;
 }
