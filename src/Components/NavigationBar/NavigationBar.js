@@ -2,14 +2,14 @@ import React from "react";
 import { Nav, Container, Navbar, Button, Row } from "react-bootstrap";
 import logo from "../../assests/Images/Ranweli_Logo.png";
 import "./Navigationbar.css";
-import { AiFillFacebook } from "react-icons/ai";
+
 
 export default function NavigationBar() {
 	return (
 		<div>
 			<Navbar collapseOnSelect expand="lg" className="navigation-bar">
 				<Container>
-					<Navbar.Brand href="#home">
+					<Navbar.Brand href="/">
 						<img src={logo} className="nav-logo" />
 					</Navbar.Brand>
 
@@ -20,11 +20,9 @@ export default function NavigationBar() {
      </Nav> */}
 
 						<div className="navlink-menu">
-							<div style={{ textAlign: "right", paddingTop: "-5px" }}>
-								{/* <AiFillFacebook /> */}
-							</div>
+							
 							<Nav>
-								<Nav.Link className="nav-menu" href="#deets">
+								<Nav.Link href="/about">
 									About Us
 								</Nav.Link>
 								<Nav.Link href="#deets">Our Partners</Nav.Link>

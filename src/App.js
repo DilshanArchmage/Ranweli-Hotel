@@ -27,13 +27,14 @@ function App() {
         <BrowserRouter>
       <Routes>
       <Route exact path="/" element={<Home/>} />
-        <Route path='/route' element={<Aboutus/>}/>
+        <Route path='/about' element={<Aboutus/>}/>
         <Route path='/activity' element={<Activities/>}/>
         <Route path='/resort' element={<Resort/>}/>
         <Route path='/accomadation' element={<Accomadation/>}/>
         <Route path='/environment' element={<EnvironmentPolicies/>}/>
         <Route path='/ayurweda' element={<Ayurweda/>}/>
         <Route path='/reservation' element={<Reservations/>}/>
+       
       </Routes>
 
       </BrowserRouter>
