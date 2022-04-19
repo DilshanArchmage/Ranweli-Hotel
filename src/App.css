@@ -1,7 +1,4 @@
-*{
-  
 
-}
 .App {
   text-align: center;
   
@@ -43,7 +40,8 @@
   }
 }
 .body-container{
-  max-width: 1035px;
+   max-width: 1035px; 
+  
  
   
 }
@@ -61,4 +59,12 @@ body {
   line-height: 18px;
   background: url(/src/assests/Images/pagebg.png);
   
+}
+
+@media (max-width:375px) {
+  .body-container{
+    max-width: 800px;
+   
+    
+  }
 }

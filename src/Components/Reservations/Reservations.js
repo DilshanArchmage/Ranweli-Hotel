@@ -125,12 +125,12 @@ export default function Reservations() {
 									</span>
 									<Form.Control as="textarea" className="inputs" rows={3} />
 								</Form.Group>
-								<Button variant="primary" className="submit" type="submit">
+								<button variant="primary" className="contact-submit1" type="submit">
 									Submit
-								</Button>
-								<Button variant="primary" className="submit" type="submit">
-									Submit
-								</Button>
+								</button>
+								<button variant="primary" className="contact-submit2" type="submit">
+									Reset
+								</button>
 							</Form>
 							<br></br>
 							<br></br>

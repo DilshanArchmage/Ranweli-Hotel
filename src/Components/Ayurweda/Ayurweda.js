@@ -23,10 +23,12 @@ export default function Ayurweda() {
 		<div>
 			<Container>
 				<Row className="h">
-				<div className="col-md-12">
-                 <img className="head-img" src={inner_banner10 }/>
+				<Row>
+					<div className="col-md-12 row-fluid head-img">
+                 <img width="105%vh" src={inner_banner10}/>
 
                 </div>
+					</Row>
 					<div className="col-md-8">
 						<div className="d-flex">
 							<img className="birdimg" src={bird} />

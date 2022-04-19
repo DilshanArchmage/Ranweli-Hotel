@@ -53,7 +53,7 @@ export default function Footer() {
               <li style={{listStyle:'none',display:'inline-block',padding:'3px 10px'}}><img className='parentImage' src={partners_4}/></li>
               <li style={{listStyle:'none',display:'inline-block',padding:'3px 10px'}}><img className='parentImage'src={partners_5}/></li>
               <li style={{listStyle:'none',display:'inline-block',padding:'3px 10px'}}><img className='parentImage' src={partners_6}/></li>
-              <li style={{listStyle:'none',display:'inline-block',padding:'3px 10px'}}><img className='parentImage' src={partners_7}/></li>
+             
               
           </ul>
          

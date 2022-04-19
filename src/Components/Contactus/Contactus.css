@@ -1,0 +1,32 @@
+.contact-submit1{
+    color: #ffffff;
+	cursor: pointer;
+	display: inline-block;
+	line-height: 35px;
+	background: #8b373a !important;
+	padding: 0px 20px;
+	vertical-align: middle;
+	font-size: 18px;
+	min-width: 80px;
+	min-height: 35px;
+	font-family: Segoe UI;
+	border: 1px solid transparent;
+	margin: 5px;
+    font-weight: bold;
+}
+.contact-submit2{
+    color: #ffffff;
+	cursor: pointer;
+	display: inline-block;
+	line-height: 35px;
+    background: #917044 !important;
+	padding: 0px 20px;
+	vertical-align: middle;
+	font-size: 18px;
+	min-width: 80px;
+	min-height: 35px;
+	font-family: Segoe UI;
+	border: 1px solid transparent;
+	margin: 5px;
+    font-weight: bold;
+}
