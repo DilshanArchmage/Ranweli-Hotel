@@ -43,36 +43,36 @@ export default function Gallery() {
 							<br></br> <br></br>
 							<Row>
 								<div className="col-md-12">
-									<img className="timthumb" src={phoca_thumb_m_new_image3} />
-									<img className="timthumb" src={phoca_thumb_m_new_image4} />
-									<img className="timthumb" src={phoca_thumb_m_new_image5} />
-									<img className="timthumb" src={phoca_thumb_m_new_image6} />
+									<img className="timthumb1" src={phoca_thumb_m_new_image3} />
+									<img className="timthumb1" src={phoca_thumb_m_new_image4} />
+									<img className="timthumb1" src={phoca_thumb_m_new_image5} />
+									<img className="timthumb1" src={phoca_thumb_m_new_image6} />
 									<br></br>
 								</div>
 							</Row>
 							<Row>
 								<div className="col-md-12">
 									<br></br>
-									<img className="timthumb" src={phoca_thumb_m_new_image7} />
-									<img className="timthumb" src={phoca_thumb_m_new_image8} />
-									<img className="timthumb" src={phoca_thumb_m_new_image9} />
-									<img className="timthumb" src={phoca_thumb_m_new_image10} />
+									<img className="timthumb1" src={phoca_thumb_m_new_image7} />
+									<img className="timthumb1" src={phoca_thumb_m_new_image8} />
+									<img className="timthumb1" src={phoca_thumb_m_new_image9} />
+									<img className="timthumb1" src={phoca_thumb_m_new_image10} />
 								</div>
 							</Row>
 							<Row>
 								<div className="col-md-12">
 									<br></br>
-									<img className="timthumb" src={phoca_thumb_m_new_image11} />
-									<img className="timthumb" src={phoca_thumb_m_new_image12} />
-									<img className="timthumb" src={phoca_thumb_m_new_image13} />
-									<img className="timthumb" src={phoca_thumb_m_new_image14} />
+									<img className="timthumb1" src={phoca_thumb_m_new_image11} />
+									<img className="timthumb1" src={phoca_thumb_m_new_image12} />
+									<img className="timthumb1" src={phoca_thumb_m_new_image13} />
+									<img className="timthumb1" src={phoca_thumb_m_new_image14} />
 								</div>
 							</Row>
 							<Row>
 								<br></br>
 								<div className="col-md-12">
 									<br></br>
-									<img className="timthumb" src={phoca_thumb_m_new_image15} />
+									<img className="timthumb1" src={phoca_thumb_m_new_image15} />
 								</div>
 							</Row>
 							<br></br>

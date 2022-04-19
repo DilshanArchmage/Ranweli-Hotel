@@ -120,7 +120,7 @@ export default function Home() {
 							<img className="separator" src={seperator} />
 
 							<div className="col-md-12">
-								<a href="/sss">
+								<a href="/video">
 									<img
 										className="banner3 img-fluid ml-auto"
 										src={video_gallary}

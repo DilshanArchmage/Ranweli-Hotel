@@ -1,14 +1,11 @@
-import React, { useState, useMemo } from "react";
-
+import React from "react";
 import { Col, Row, Container, Button } from "react-bootstrap";
-import "./WhatsNew.css";
-import Pagination from "./Pagination.js";
-import bird from "../../assests/Images/kingfish.png";
 import pdfIcon from "../../assests/Images/pdfIcon.jpeg";
-import room_types from "../../assests/Images/room_types.jpeg";
-import timthumb1 from "../../assests/Images/timthumb (1).jpeg";
-import timthumb2 from "../../assests/Images/timthumb (2).jpeg";
-import timthumb3 from "../../assests/Images/timthumb (3).jpeg";
+import bird from "../../assests/Images/kingfish.png";
+import bs_nature_walk from "../../assests/Images/bs_nature_walk.jpeg";
+import bs_butterfuly from "../../assests/Images/bs_butterfuly.jpeg";
+import bs_boat_trip from "../../assests/Images/bs_boat_trip.jpeg";
+import craftDemonstrationsBanner from "../../assests/Images/craftDemonstrationsBanner.png";
 import butterflyWatchingBanner from "../../assests/Images/butterflyWatchingBanner.png";
 import natureToursBanner from "../../assests/Images/natureToursBanner.png";
 import Tourism_Awards from "../../assests/Images/Tourism_Awards.gif";
@@ -16,71 +13,75 @@ import Footer from "../Footer/Footer";
 import archaeologicalToursBanner from "../../assests/Images/archaeologicalToursBanner.png";
 import NavigationBar from "../NavigationBar/NavigationBar";
 import SecondNavBar from "../NavigationBar/SecondNavBar/SecondNavBar";
-import timthumb from "../../assests/Images/timthumb.jpeg";
-import data from "./data/data.json";
-import "./Pagination.js";
+import seperator from "../../assests/Images/seperator.png";
 
-let PageSize = 4;
-
-export default function WhatsNew() {
-	const [currentPage, setCurrentPage] = useState(1);
-	const currentTableData = useMemo(() => {
-		const firstPageIndex = (currentPage - 1) * PageSize;
-		const lastPageIndex = firstPageIndex + PageSize;
-		return data.slice(firstPageIndex, lastPageIndex);
-	}, [currentPage]);
-
+export default function Aboutus() {
 	return (
 		<div>
 			<Container>
-				<Row className=" h">
+				<Row className="h">
 					<div className="col-md-8">
 						<div className="d-flex">
 							<img className="birdimg" src={bird} />
 
-							<h2 className="home-welcome">What's New</h2>
+							<h2 className="home-welcome">
+								The British School of Colombo visited Ranweli
+							</h2>
 						</div>
 						<div className="welcome-body">
-							{currentTableData.map((item) => {
-								return (
-									<p className="title2">
-										<b>{item.topic}</b>
-										<Row>
-											<div className="col-md-6">
-												<br></br>
-												<img className="timthumb" src={item.img} />
-											</div>
-
-											<div className="col-md-6">
-												<p className="activity-body">{item.desc}</p>
-												<Button
-													variant="primary"
-													className="submit1"
-													type="submit"
-													href={item.link}
-												>
-													Read More
-												</Button>
-											</div>
-										</Row>
-									</p>
-								);
-							})}
 							<br></br>
-							<>
-								<Pagination
-									className="pagination-bar"
-									currentPage={currentPage}
-									totalCount={data.length}
-									pageSize={PageSize}
-									onPageChange={(page) => setCurrentPage(page)}
-								/>
-							</>
+							<p className="activity-body">
+								The British School of Colombo visited Ranweli for an Educational
+								Tour for the 4th consecutive year in November 2012. All tours
+								were professionally organized and conducted by the Eco
+								Department of Ranweli Holiday Village.
+							</p>
+							<Row>
+								<div className="col-md-4">
+									<img src={bs_nature_walk} />
+								</div>
+								<div className="col-md-8">
+									<p className="activity-body" style={{ paddingLeft: "20px" }}>
+										The kids were enthralled by the Natural environment around
+										the resort while on a nature tour. They observed terrestrial
+										plants, the rich mangrove eco system and the importance of
+										their role in the environment.
+									</p>
+								</div>
+							</Row>
+							<Row>
+								<div className="col-md-4">
+									<br></br>
+									<img src={bs_butterfuly} />
+								</div>
+								<div className="col-md-8">
+									<p className="activity-body" style={{ paddingLeft: "20px" }}>
+										At the Butterfly Corner at Ranweli the students observed the
+										"life cycle of the Butterfly" including their host plant and
+										food plant.
+									</p>
+								</div>
+							</Row>
+							<Row>
+								<div className="col-md-4">
+									<br></br>
+									<img src={bs_boat_trip} />
+								</div>
+								<div className="col-md-8">
+									<p className="activity-body" style={{ paddingLeft: "20px" }}>
+										At the Butterfly Corner at Ranweli the students observed the
+										"life cycle of the Butterfly" including their host plant and
+										food plant.
+									</p>
+									<br></br>
+								</div>
+							</Row>
+							<br></br> <br></br> <br></br> <br></br>
 						</div>
 					</div>
 
 					<div className="col-md-4">
-						<Row>
+                    <Row>
 							<div className="col-md-12 whts-tab">
 								<table>
 									<tr>
@@ -136,11 +137,8 @@ export default function WhatsNew() {
 							</div>
 						</Row>
 					</div>
-
-					<br></br>
 					<br></br>
 				</Row>
-
 				<Footer />
 			</Container>
 		</div>

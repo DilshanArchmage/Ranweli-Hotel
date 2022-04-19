@@ -28,6 +28,12 @@ import Offers from "./Components/Offers/Offers";
 import Awards from "./Components/Awards/Awards";
 import Videos from "./Components/Videos/Videos";
 import Pagination from "./Components/WhatsNew/Pagination";
+import BritishSchool from "./Components/WhatsNew/BritishSchool"
+import AsianGreening from "./Components/WhatsNew/AsianGreening";
+import KualaLumpurVisited from "./Components/WhatsNew/KualaLumpurVisited";
+import Aurudu2012 from "./Components/WhatsNew/Aurudu2012";
+import EchoLodge from "./Components/WhatsNew/EchoLodge";
+import MobileMenu from "./Components/MobileMenu/MobileMenu";
 
 function App() {
 	return (
@@ -39,6 +45,7 @@ function App() {
 						{/* <div className="secondfooter">
 							<SecondNavBar />
 						</div> */}
+						
 						<TopNavBar />
 						<SecondNavBar />
 						<BrowserRouter>
@@ -52,7 +59,7 @@ function App() {
 								<Route path="/ayurweda" element={<Ayurweda />} />
 								<Route path="/reservation" element={<Reservations />} />
 								<Route path="/whatsnew" element={<WhatsNew />} />
-								
+
 								<Route path="/gallery" element={<Gallery />} />
 								<Route path="/contact" element={<Contactus />} />
 								<Route path="/video" element={<Videos />} />
@@ -60,7 +67,14 @@ function App() {
 								<Route path="/parnters" element={<Partners />} />
 								<Route path="/offers" element={<Offers />} />
 								<Route path="/award" element={<Awards />} />
-								<Route path='/pagination' element={<Pagination/>}/>
+								<Route path="/pagination" element={<Pagination />} />
+								<Route path='/britishschool' element={<BritishSchool/>}/>
+								<Route path='/asiangreening' element={<AsianGreening/>}/>
+								<Route path='/kualalumpurvisit' element={<KualaLumpurVisited/>}/>
+								<Route path='/aurudu2012' element={<Aurudu2012/>}/>
+								<Route path='/echolodge' element={<EchoLodge/>}/>
+								<Route path='/mobilenav' element={<MobileMenu/>}/>
+
 							</Routes>
 						</BrowserRouter>
 					</Container>
