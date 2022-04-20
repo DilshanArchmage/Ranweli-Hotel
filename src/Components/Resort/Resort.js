@@ -32,17 +32,11 @@ export default function Resort() {
 		<div>
 			<Container>
 				<Row className="Rh">
-				
 					<div className=" ">
 						<p>
-							
-						<img width="100%vw" src={the_resort}/>
+							<img width="100%vw" src={the_resort} />
 						</p>
-                 
-
-                </div>
-					
-					
+					</div>
 
 					<div className="col-md-8">
 						<div className="d-flex">
@@ -56,15 +50,22 @@ export default function Resort() {
 								environment. The serene and idyllic location has been fully
 								utilized in the layout of the land, featuring indigenous flora
 								and fauna,and borders the wide sandy beach on one side, and the
-								river on the other. The land was originally a coconut plantation
-								surrounded by wetlands mainly mangroves. In conceptualizing
-								Ranweli, the architects used the spacing of the rows of the
-								coconut trees (known as the coconut grid by Agriculturists) as
-								the discipline for the design. The bungalows, central areas and
-								facilities were built by removing the minimum number of coconut
-								trees. For each bungalow constructed, only one tree was removed
-								and the tree trunks were used to construct the pillars. The
-								connecting walkways open out into beautifully tended palm
+								river on the other.
+							</p>
+							<p>
+								{" "}
+								The land was originally a coconut plantation surrounded by
+								wetlands mainly mangroves. In conceptualizing Ranweli, the
+								architects used the spacing of the rows of the coconut trees
+								(known as the coconut grid by Agriculturists) as the discipline
+								for the design. The bungalows, central areas and facilities were
+								built by removing the minimum number of coconut trees. For each
+								bungalow constructed, only one tree was removed and the tree
+								trunks were used to construct the pillars.
+							</p>
+							<p>
+								{" "}
+								The connecting walkways open out into beautifully tended palm
 								gardens leading to the heart of the resort. Architecturally and
 								aesthetically the construction and furnishing of the village
 								blends western standards of comfort and with the traditions of
@@ -82,13 +83,13 @@ export default function Resort() {
 									className="mb-3"
 								>
 									<Tab
-									className="hello"
+										className="hello"
 										style={{ listStyle: "none" }}
 										eventKey="home"
 										title="Facilities"
-									><Facilities/>
-
-                  </Tab>
+									>
+										<Facilities />
+									</Tab>
 									<Tab eventKey="profile" title="Activities">
 										<BirdResort />
 									</Tab>
@@ -98,10 +99,7 @@ export default function Resort() {
 					</div>
 
 					<div className="col-md-4">
-				
-							<img src={ranwelimap}/>
-
-					
+						<img src={ranwelimap} />
 					</div>
 				</Row>
 				<Footer />

@@ -20,6 +20,7 @@ import EnvironmentPolicies from "./Components/EnvironmentPolicies/EnvironmentPol
 import Ayurweda from "./Components/Ayurweda/Ayurweda";
 import Reservations from "./Components/Reservations/Reservations";
 import WhatsNew from "./Components/WhatsNew/WhatsNew";
+import Weddings from "./Components/Weddings/Weddings";
 
 import Gallery from "./Components/Gallery/Gallery";
 import Contactus from "./Components/Contactus/Contactus";
@@ -74,6 +75,7 @@ function App() {
 								<Route path='/aurudu2012' element={<Aurudu2012/>}/>
 								<Route path='/echolodge' element={<EchoLodge/>}/>
 								<Route path='/mobilenav' element={<MobileMenu/>}/>
+								<Route path="/wedding" element={<Weddings/>}/>
 
 							</Routes>
 						</BrowserRouter>

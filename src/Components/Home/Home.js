@@ -54,63 +54,62 @@ export default function Home() {
 									/>
 									<div className="list1 ">
 										<ul>
-											<a href="/sss" className="links">
+											<a href="/resort" className="links">
 												<li> Restaurant and Bars</li>
 											</a>
-											<a href="/sss" className="links">
+											<a href="/resort" className="links">
 												<li> Sports Facilities</li>
 											</a>
-											<a href="/sss" className="links">
+											<a href="/resort" className="links">
 												<li> Ayurvedic Centre</li>
 											</a>
-											<a href="/sss" className="links">
+											<a href="/resort" className="links">
 												<li> Eco/Jewellery Shop</li>
 											</a>
-											<a href="/sss" className="links">
+											<a href="/resort" className="links">
 												<li> Beachfront Pool</li>
 											</a>
-											<a href="/sss" className="links">
+											<a href="/resort" className="links">
 												<li> Evening Entertainment</li>
 											</a>
-											<a href="/sss" className="home-link2">
+											<a href="/resort" className="home-link2">
 												<p>More Facilities</p>
 											</a>
 										</ul>
 									</div>
 								</div>
-								<div className="col-md-6 banner2 ml-auto">
-									<h3 className="sub-headers2">
+								<div className="col-md-6 ml-auto">
+									<h3 className="sub-headers">
 										<b>Activities</b>
 									</h3>
-
 									<img
-										className=" bannerimg2 img-fluid mr-auto"
+										className="banner1 img-fluid mr-auto"
 										src={activitiesBanner}
 									/>
 									<div className="list2 mr-auto">
 										<ul>
-											<a href="/sss" className="links">
+											<a href="/resort" className="links">
 												<li> Bird Watching</li>
 											</a>
-											<a href="/sss" className="links">
+											<a href="/resort" className="links">
 												<li> Nature Walk</li>
 											</a>
-											<a href="/sss" className="links">
+											<a href="/resort" className="links">
 												<li> Cycling</li>
 											</a>
-											<a href="/sss" className="links">
+											<a href="/resort" className="links">
 												<li> River Cruise</li>
 											</a>
-											<a href="/sss" className="links">
+											<a href="/resort" className="links">
 												<li> Tours Outside Ranweli</li>
 											</a>
-											<a href="/ssdd" className="links">
+											<a href="/resort" className="links">
 												<li> Craft Demonstrations</li>
 											</a>
-											<a href="/sss" className="links">
+											<a href="/resort" className="links">
 												<li> Butterfly Watching</li>
 											</a>
-											<a href="/sss" className="home-link2">
+											<a href="/resort" className="home-link2">
 												<p>More Activities</p>
 											</a>
 										</ul>
@@ -206,7 +205,7 @@ export default function Home() {
 
 						<p className="welcome-body2">
 							Sri Lanka was ranked the number one place to go to by The New York
-							Times..
+							Times.
 						</p>
 						<a href="/" style={{ textDecoration: "none" }}>
 							<p className="home-link" href="/qq">

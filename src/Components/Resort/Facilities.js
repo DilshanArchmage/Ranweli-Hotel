@@ -23,10 +23,11 @@ export default function Facilities() {
 				<Row className="h">
 					<div className="col-md-12">
 						<div className="d-flex">
-							<p className="bird-subtitle1">Restaurant and Bars</p>
+						
 						</div>
 						<div className="birdwelcome-body">
-							
+							<br></br><br></br>
+						<p className="bird-subtitle1">Restaurant and Bars</p>
 							<div className="col-md-12">
 							<img  width="100%vw" src={restaurant_bar} />
 
@@ -37,7 +38,7 @@ export default function Facilities() {
 							<p className="birdResortactivity-body">
 								Ranweli's restaurant, offers a delicious buffet and a' la carte
 								Sri Lankan and International cuisine. Vegetarian meals are
-								available on request and in all buffets..
+								available on request and in all buffets.
 							</p>
 
 							<p
@@ -63,7 +64,7 @@ export default function Facilities() {
 							</p>
 							<p>
 								<b className="birdrest-subheading">
-									Unique Dining Experience - Ferry Dinner
+									Unique Dining Experience - <i>Ferry Dinner</i>
 								</b>
 							</p>
 							<img className="pht1" src={photo16} />
@@ -152,7 +153,7 @@ export default function Facilities() {
 									className="birdResortactivity-body"
 								>
 									A selection of precious and semi-precious stone jewellery by
-									Colombo Gem Crafts and Sangems & Jewellery www.sangems.com
+									Colombo Gem Crafts and Sangems & Jewellery <a className="home-link2" href="www.sangems.com">www.sangems.com</a> 
 								</p>
 							</p>
 

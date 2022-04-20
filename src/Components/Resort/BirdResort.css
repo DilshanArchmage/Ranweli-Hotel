@@ -3,6 +3,7 @@
 	font-size: 16px;
 	color: #7bc236;
 	font-weight: bold;
+	margin-left: -35px;
 }
 .birdwelcome-body {
 	color: #635e54;
@@ -33,6 +34,9 @@
 
 .birdrest-subheading {
 	margin-left: -35px;
+
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .resortbird-cycling {

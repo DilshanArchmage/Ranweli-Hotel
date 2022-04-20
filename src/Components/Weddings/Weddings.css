@@ -1,0 +1,19 @@
+.table-subhead{
+    color: #7bc236;
+	font-weight: bold;
+    font-size: 20px;
+}
+.inside-table th{
+    background-color: #FFFFFF;
+    color: #666666;
+    font-size: 12px;
+    padding: 0 5px;
+
+}
+.inside-table td{
+    background-color: #FFFFFF;
+    color: #666666;
+    font-size: 12px;
+    padding: 0 5px;
+
+}

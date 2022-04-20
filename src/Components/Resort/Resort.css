@@ -9,3 +9,6 @@
 	max-width: fit-content;
 }
 
+li.nav-item {
+    list-style: none;
+}

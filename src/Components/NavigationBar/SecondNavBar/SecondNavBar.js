@@ -30,7 +30,7 @@ export default function SecondNavBar() {
 									<Nav.Link href="/accomadation">Accomadation</Nav.Link>
 									<Nav.Link href="/environment">Environment Policies</Nav.Link>
 									<Nav.Link href="/ayurweda">Ayurveda</Nav.Link>
-									<Nav.Link href="/reservation">Weddings</Nav.Link>
+									<Nav.Link href="/wedding">Weddings</Nav.Link>
 									<Nav.Link href="/reservation">Reservations</Nav.Link>
 
 									<div className="secondNav"></div>

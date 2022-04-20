@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Col, Row, Container, Button} from "react-bootstrap";
+import { Col, Row, Container, Button } from "react-bootstrap";
 import "./Accomadation.css";
 
 import bird from "../../assests/Images/kingfish.png";
@@ -16,22 +16,19 @@ import Footer from "../Footer/Footer";
 import archaeologicalToursBanner from "../../assests/Images/archaeologicalToursBanner.png";
 import NavigationBar from "../NavigationBar/NavigationBar";
 import SecondNavBar from "../NavigationBar/SecondNavBar/SecondNavBar";
-import accomodation from '../../assests/Images/accomodation.jpeg'
+import accomodation from "../../assests/Images/accomodation.jpeg";
 
 export default function Accomadation() {
 	return (
 		<div>
 			<Container>
-				
 				<Row className=" h">
 					<Row>
-					<div className="col-md-12 row-fluid head-img">
-                 <img width="105%vh" src={accomodation}/>
-
-                </div>
+						<div className="col-md-12 row-fluid head-img">
+							<img width="105%vh" src={accomodation} />
+						</div>
 					</Row>
-					
-				
+
 					<div className="col-md-8">
 						<div className="d-flex">
 							<img className="birdimg" src={bird} />
@@ -42,12 +39,20 @@ export default function Accomadation() {
 							<p className="activity-body">
 								Ranweli offers 4 types of accommodation all constructed with
 								local building materials, in a unique ethnic style that
-								resembles a typical Sri Lankan village. 16 Superior Deluxe Sea
-								View Bungalows, 40 Deluxe Sea View Bungalows, 10 Standard Sea
-								View Bungalows, 04 River View Bungalows, 17 Standard Rooms with
-								01 Suite provide comfortable accommodation. The interior décor
-								includes terra cotta pots, brass lamps, artifacts produced by
-								local craftsmen and hand-made local fabric.
+								resembles a typical Sri Lankan village.
+							</p>
+							<p>
+								{" "}
+								16 Superior Deluxe Sea View Bungalows, 40 Deluxe Sea View
+								Bungalows, 10 Standard Sea View Bungalows, 04 River View
+								Bungalows, 17 Standard Rooms with 01 Suite provide comfortable
+								accommodation.
+							</p>
+							<p>
+								{" "}
+								The interior décor includes terra cotta pots, brass lamps,
+								artifacts produced by local craftsmen and hand-made local
+								fabric.
 							</p>
 
 							<p className="title2">Deluxe Sea View Bungalows</p>
@@ -122,9 +127,11 @@ export default function Accomadation() {
 							<img className="separator" src={seperator} />
 							<p>
 								<br></br>
-								<b>** SPOTTED DOVE </b>Streptopelia chinensis S. Alu Kobeyiya
-								30cm.Spotted Ashy-blue plumage. Black and white pattern on back
-								of neck.BrR-All Zones. Very common
+								<i>
+									<b>** SPOTTED DOVE </b>Streptopelia chinensis S. Alu Kobeyiya
+									30cm.Spotted Ashy-blue plumage. Black and white pattern on
+									back of neck.BrR-All Zones. Very common
+								</i>
 							</p>
 							<br></br>
 							<br></br>
@@ -136,19 +143,16 @@ export default function Accomadation() {
 					<div className="col-md-4">
 						<Row>
 							<div className="col-md-12">
-							<img className="acco-img" src={room_types} />
+								<img className="acco-img" src={room_types} />
 							</div>
-
 						</Row>
-						
 					</div>
-					
+
 					<br></br>
 					<br></br>
 				</Row>
 
 				<Footer />
-				
 			</Container>
 		</div>
 	);

@@ -9,7 +9,8 @@ import riverCruiseBanner from "../../assests/Images/riverCruiseBanner.png";
 import craftDemonstrationsBanner from "../../assests/Images/craftDemonstrationsBanner.png";
 import butterflyWatchingBanner from "../../assests/Images/butterflyWatchingBanner.png";
 import natureToursBanner from "../../assests/Images/natureToursBanner.png";
-import Tourism_Awards from "../../assests/Images/Tourism_Awards.gif";
+import natureWalkBanner from "../../assests/Images/natureWalkBanner.png";
+import wilpattu_tourBanner from "../../assests/Images/wilpattu_tourBanner.png";
 import Footer from "../Footer/Footer";
 import archaeologicalToursBanner from "../../assests/Images/archaeologicalToursBanner.png";
 import NavigationBar from "../NavigationBar/NavigationBar";
@@ -18,7 +19,7 @@ import SecondNavBar from "../NavigationBar/SecondNavBar/SecondNavBar";
 export default function Activities() {
 	return (
 		<div>
-			<Container >
+			<Container>
 				<Row className="Ah">
 					<div className="col-md-8">
 						<div className="d-flex">
@@ -29,13 +30,14 @@ export default function Activities() {
 						</div>
 						<div className="welcome-body">
 							<Row>
-							<div className="col-md-12">
-							<img className="bird-watching mr-auto" src={birdWatchingBanner} />
-
-							</div>
+								<div className="col-md-12">
+									<img
+										className="bird-watching mr-auto"
+										src={birdWatchingBanner}
+									/>
+								</div>
 							</Row>
-							
-							
+
 							<p className="activity-body">
 								Sri Lanka is blessed with an abundant avifauna. There are 226
 								resident birds, 133 migrants, 90 vagrants and 33 endemics (26
@@ -50,7 +52,7 @@ export default function Activities() {
 								special facility to our guests. A three-hour tour has been
 								developed with the assistance of the Field Ornithology Group of
 								Sri Lanka (FOGSL), an affiliate of Bird Life International (an
-								international bird conservation organization)
+								international bird conservation organization).
 							</p>
 							<p>
 								<b>Key Facts</b>
@@ -75,14 +77,64 @@ export default function Activities() {
 								</a>
 							</ul>
 
+							<p className="title2">Nature Walk</p>
+						</div>
+						<div className="welcome-body">
+							<Row>
+								<div className="col-md-12">
+									<br></br>
+									<img
+										className="bird-watching mr-auto"
+										src={natureWalkBanner}
+									/>
+								</div>
+							</Row>
+
+							<p className="activity-body">
+								Our trained naturalist will guide you along the Ranweli nature
+								trail, where selected shrubs and trees are described. You can
+								also view 17 floral species, of which one is on display daily at
+								our "flower of the day" exhibition. A list of trees and shrubs,
+								totaling 80 varieties, is available to our guests. Detailed
+								interpretation programmes are also available on selected flora
+								and fauna.
+							</p>
+
+							<p>
+								This relaxing two hour walk in our extensive 9 hectare (22 acre)
+								garden, also includes a pass through our boardwalk where the
+								mangroves and their ecosystem can be observed from a higher
+								elevation. The site contains a very rich mangrove forest of
+								Rhizophora spp, a true mangrove. The rare and protected Nypa
+								fruticans, the only palm that grows naturally in water, is also
+								found along the river bordering Ranweli.
+							</p>
+							<p>
+								<b>Key Facts</b>
+							</p>
+							<ul className="activity-list1">
+								<li style={{ listStyle: "circle" }}>
+								Accompanied by an expert naturalist
+								</li>
+								<li style={{ listStyle: "circle" }}>
+								Duration: 2 hours, commencing at 10:00hrs
+								</li>
+								<li style={{ listStyle: "circle" }}>
+								Rates: US$ 15 per person
+								</li>
+								<li style={{ listStyle: "circle" }}>
+								Reservation in advance with reception
+								</li>
+								
+							</ul>
+
 							<p className="title2">Cycling</p>
 							<Row>
-							<div className="col-md-12">
-							<img className="cycling mr-auto" src={cyclingBanner} />
-
-							</div>
+								<div className="col-md-12">
+									<img className="cycling mr-auto" src={cyclingBanner} />
+								</div>
 							</Row>
-							
+
 							<p className="activity-body">
 								Two exciting tours on bicycles through the lush countryside is
 								available. These provide an opportunity to enjoy the natural
@@ -91,7 +143,7 @@ export default function Activities() {
 								accompanied by a member of the staff and will have an
 								opportunity to interact with the local community in the
 								villages. A route map with the descriptions of the sites will be
-								provided to participants..
+								provided to participants.
 							</p>
 
 							<p>
@@ -106,7 +158,7 @@ export default function Activities() {
 									persons
 								</li>
 								<li style={{ listStyle: "circle" }}>
-									Tour 2: 26 kms/4 hr duration - US$ 15 per person , minimum 2
+									Tour 2: 26 kms/4 hr duration - US$ 15 per person,minimum 2
 									persons
 								</li>
 								<li style={{ listStyle: "circle" }}>
@@ -158,7 +210,7 @@ export default function Activities() {
 									Reservation in advance with reception
 								</li>
 							</ul>
-							<p style={{ fontStyle: "italic" }}>
+							<p style={{fontSize:"15px", fontStyle: "italic" }}>
 								Rates are subject to change without notice
 							</p>
 
@@ -198,7 +250,7 @@ export default function Activities() {
 							<p className="title2">Butterfly Tour</p>
 							<img className="cycling" src={butterflyWatchingBanner} />
 							<p className="activity-body">
-								TWe organize guided tours in the surroundings of the hotel where
+								We organize guided tours in the surroundings of the hotel where
 								you can observe over 50 species of butterflies.
 							</p>
 							<p>
@@ -269,7 +321,7 @@ export default function Activities() {
 								rainforest.
 							</p>
 
-							<a href="/sss" className="home-link2">
+							<a href="/contact" style={{textDecoration:'underline'}} className="home-link2">
 								<p>Please inquire for rates from the Reception.</p>
 							</a>
 
@@ -280,13 +332,13 @@ export default function Activities() {
 								This 1 day tour will take you to Panduwasnuwara one of the
 								ancient Royal Capitals of Sri Lanka which is only an hours drive
 								from Ranweli. This sprawling 50 acre moated and walled 'sleeping
-								city, some of it still unexcavated, was an expertly planned and
+								city', some of it still unexcavated, was an expertly planned and
 								well laid out metropolis with a stately palace, royal audience
 								hall, store houses, granaries, monastic complexes, shrines, bath
 								houses, toilets and ponds. Beautifully proportioned platforms,
 								terraces, pavements and doorways enhance its architecture.
 								Handsome stone sculptures and carvings adorn it and rock
-								inscriptions record events at the time..
+								inscriptions record events at the time.
 							</p>
 							<p>
 								After your visit to Panduwasnuwara you will be taken to
@@ -311,7 +363,7 @@ export default function Activities() {
 							</ul>
 
 							<p className="title2">Wilpattu Tour</p>
-							<img className="cycling" src={archaeologicalToursBanner} />
+							<img className="cycling" src={wilpattu_tourBanner} />
 
 							<p className="activity-body">
 								Wilpattu is one of the oldest National Parks in Sri Lanka and
@@ -323,7 +375,7 @@ export default function Activities() {
 								existence of "Willus" (Natural lakes) has nearly sixty
 								lakes(Willu) and tanks spread throughout.
 							</p>
-							<p>
+							<p className="activity-body">
 								There are many types of vegetation to be found in Wilpattu;
 								Littoral vegetation, including Salt grass and low scrub monsoon
 								forest with tall emergents, such as Palu (Manilkara
@@ -331,12 +383,12 @@ export default function Activities() {
 								altissima), Weera (Drypetes sepiaria), Ebony (Disopyros ebenum)
 								etc. .
 							</p>
-							<p>
+							<p className="activity-body">
 								31 species of mammals have been identified within Wilpattu
-								national park.The Elephant , Sloth bear,Leopard, Water Buffalo,
-								Sambhur, Spotted Dears, Mongoose are some of residents. .
+								national park.The Elephant,Sloth bear,Leopard,Water Buffalo,
+								Sambhur,Spotted Dears,Mongoose are some of residents.
 							</p>
-							<p>
+							<p className="activity-body">
 								Wilpattu National Parks is located 150 km (approximately) north
 								of Ranweli Holiday Villge.
 							</p>
@@ -357,26 +409,26 @@ export default function Activities() {
 					</div>
 
 					<div className="col-md-4">
-                        <div className="col-md-12">
-                        <p className="title4">Phone:</p>
-                        <p className="title4-body">(94) 31 2277359</p>
-                        <p className="title4-body">(94) 31 5679334</p>
-                        <p className="title4-body">(94) 31 5679335</p>
-                        <p className="title4-body">(94) 771096739</p>
+						<div className="col-md-12">
+							<p className="title4">Phone:</p>
+							<p className="title4-body">(94) 31 2277359</p>
+							<p className="title4-body">(94) 31 5679334</p>
+							<p className="title4-body">(94) 31 5679335</p>
+							<p className="title4-body">(94) 771096739</p>
+						</div>
+						<p className="title4">Email:</p>
+						<a href="/sss" className="home-link2">
+							ranweli@slt.lk
+						</a>
 
-                        </div>
-                        <p className="title4">Email:</p>  
-                        <a href="/sss" className="home-link2">ranweli@slt.lk</a>
-                        
-                        <p className="title4">Fax:</p>  
-                        <p className="title4-body">(94) 31 2277358</p>
+						<p className="title4">Fax:</p>
+						<p className="title4-body">(94) 31 2277358</p>
 
-                        <p className="title4">Address:</p>  
-                        <p className="title4-body">Ranweli Holiday Village, Waikkal, Sri Lanka.</p>
-
-
-
-                    </div>
+						<p className="title4">Address:</p>
+						<p className="title4-body">
+							Ranweli Holiday Village, Waikkal, Sri Lanka.
+						</p>
+					</div>
 				</Row>
 				<Footer />
 			</Container>

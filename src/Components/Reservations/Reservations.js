@@ -43,16 +43,16 @@ export default function Reservations() {
 											Your Name : <span className="astric">*</span>
 										</b>
 									</span>
-									<Form.Control className="inputs" type="text" />
+									<Form.Control className="inputs" type="text" required/>
 								</Form.Group>
 
 								<Form.Group className="mb-3" controlId="formBasicPassword">
 									<span className="activity-body">
 										<b>
-											Email : <span className="astric">*</span>
+											Your Email : <span className="astric">*</span>
 										</b>
 									</span>
-									<Form.Control type="email" className="inputs" />
+									<Form.Control type="email" className="inputs" required/>
 								</Form.Group>
 
 								<Form.Group className="mb-3" controlId="formBasicPassword">
@@ -61,7 +61,7 @@ export default function Reservations() {
 											Your Phone : <span className="astric">*</span>
 										</b>
 									</span>
-									<Form.Control type="text" className="inputs" />
+									<Form.Control type="number" className="inputs" required />
 								</Form.Group>
 
 								<Form.Group className="mb-3" controlId="formBasicPassword">
@@ -71,7 +71,7 @@ export default function Reservations() {
 											<span className="astric">*</span>
 										</b>
 									</span>
-									<Form.Control type="email" className="inputs" />
+									<Form.Control type="date" className="inputs" required/>
 								</Form.Group>
 
 								<Form.Group className="mb-3" controlId="formBasicPassword">
@@ -81,17 +81,18 @@ export default function Reservations() {
 											<span className="astric">*</span>
 										</b>
 									</span>
-									<Form.Control type="text" className="inputs" />
+									<Form.Control type="date" className="inputs" required/>
 								</Form.Group>
 
 								<span className="activity-body">
 									<b>
-										Check-in Date (DD-MM-YY) : <span className="astric">*</span>
+										Room Type : <span className="astric"></span>
 									</b>
 								</span>
 								<Form.Select
 									className="inputs"
 									aria-label="Default select example"
+									required
 								>
 									<option>Select Type</option>
 									<option value="1">Single</option>
@@ -106,14 +107,14 @@ export default function Reservations() {
 											No. of Rooms Required : <span className="astric">*</span>
 										</b>
 									</span>
-									<Form.Control type="text" className="inputs" />
+									<Form.Control type="number" className="inputs" required/>
 								</Form.Group>
 
 								<Form.Group className="mb-3" controlId="formBasicPassword">
 									<span className="activity-body">
 										<b>No. of Children : </b>
 									</span>
-									<Form.Control type="text" className="inputs" />
+									<Form.Control type="number" className="inputs" required/>
 								</Form.Group>
 
 								<Form.Group
