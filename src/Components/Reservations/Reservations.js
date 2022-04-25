@@ -175,7 +175,7 @@ export default function Reservations() {
 					<div className="col-md-4">
 						<div className="col-md-12">
 							<p className="title4">Phone:</p>
-							<p className="title4-body">(94) 31 2277359</p>
+							<p className="title4-body">(94) 31 2277359 1</p>
 							<p className="title4-body">(94) 31 5679334</p>
 							<p className="title4-body">(94) 31 5679335</p>
 							<p className="title4-body">(94) 771096739</p>
