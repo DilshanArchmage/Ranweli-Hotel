@@ -23,12 +23,12 @@ export default function Ayurweda() {
 		<div>
 			<Container>
 				<Row className="h">
-				<Row>
-					<div className="col-md-12 row-fluid head-img">
-                 <img width="105%vh" src={inner_banner10}/>
+				
+					
+                 <img width="100%vh" style={{padding:'0px'}} src={inner_banner10}/>
 
-                </div>
-					</Row>
+               
+					
 					<div className="col-md-8">
 						<div className="d-flex">
 							<img className="birdimg" src={bird} />
@@ -38,12 +38,12 @@ export default function Ayurweda() {
 						<div className="welcome-body">
 							<p>
 								<b>
-									Please email ranweli@slt.lk for more information and rates.
+									Please email <a className="home-link2" style={{textDecoration:'underline'}}>ranweli@slt.lk </a>for more information and rates.
 								</b>
 							</p>
 							<p className="activity-body">
 								Ranweli’s idyllic location provides tranquility and serenity
-								providing excellent sensory stimulation and calming your mind..
+								providing excellent sensory stimulation and calming your mind.
 							</p>
 
 							<p>
@@ -51,12 +51,7 @@ export default function Ayurweda() {
 								health treatments using medicinal herbs. A qualified Ayurvedic
 								doctor with many years of experience is in charge of the centre.
 							</p>
-							<p>
-								We protect the natural habitat. The business operates and
-								conducts operations in an environmentally friendly manner by
-								using our resources efficiently and managing our waste and
-								emissions to minimize the impact on the environment.
-							</p>
+						
 							<p>Ranweli also offers Yoga facilities by special arrangement.</p>
 
 							<br></br>
@@ -66,15 +61,15 @@ export default function Ayurweda() {
 							<p className="title2">Ayurvedic Centre</p>
 							<img className="cycling" src={AyurvedaBanner} />
 							<p className="activity-body">
-								Ayurveda, the "science of life", is a 5000 year old science that
+								Ayurveda, the <i>"science of life", </i> is a 5000 year old science that
 								has been handed down through the centuries by the ancient
-								physicians. Ayurveda was practiced as a way of restoring ‘life’
+								physicians. Ayurveda was practiced as a way of restoring <i>‘life’</i> 
 								to the body.
 							</p>
 							<p className="activity-body">
 								This ancient science is a complete health system for mind, body
-								and spirit. Ayurveda emphasizes that "prevention is better than
-								cure". Rather than treating the symptoms, the focus is on the
+								and spirit. Ayurveda emphasizes that <i>"prevention is better than
+								cure"</i>. Rather than treating the symptoms, the focus is on the
 								entire body, diseases are cured while relaxation is enhanced.
 							</p>
 							<p className="activity-body">
@@ -82,8 +77,8 @@ export default function Ayurweda() {
 								of potential weakness. It operates on the assumption that the
 								human body is composed of various combinations of the five
 								elements: fire, water, air, earth and ether. These elements are
-								displayed in each individual through body types, or 'doshas'.
-								Maintaining the balance of your 'dosha' is the key to successful
+								displayed in each individual through body types, or <i>'doshas'</i> .
+								Maintaining the balance of your <i>'dosha'</i> is the key to successful
 								Ayurvedic practice and this is done through diet, exercise,
 								massage and herbal medicine.
 							</p>
@@ -108,8 +103,8 @@ export default function Ayurweda() {
 							<p className="activity-body">
 								Programs conducted by a meditation instructor are offered by
 								special arrangement. The two basic methods of meditation are
-								taught: the 'Anapana sati' or mindfulness of breathing and the
-								'Metta-bhavana' or cultivation of loving-kindness.
+								taught: the <i><b>'Anapana sati' </b></i>or mindfulness of breathing and the
+								<i><b>'Metta-bhavana'</b></i> or cultivation of loving-kindness.
 							</p>
 
 							<p className="title2">Herbal Garden</p>
@@ -124,12 +119,12 @@ export default function Ayurweda() {
 								of butterflies as host & nectaring plants.
 							</p>
 
-							<img className="separator" src={seperator} />
+							
 							<p>
 								<br></br>
-								<b>** PIED KINGFISHER </b>Ceyle rudis S.Gomara Kalapu-pilihuduwa
+								<i><b>** PIED KINGFISHER </b>Ceyle rudis S.Gomara Kalapu-pilihuduwa
 								30cm. Black and white. Male- Complete double breast bands.
-								Female incomplete breast bands. Hovering habit. BrR.Lc. Common
+								Female incomplete breast bands. Hovering habit. BrR.Lc. Common</i>
 							</p>
 						</div>
 					</div>

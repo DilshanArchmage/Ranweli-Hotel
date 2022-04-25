@@ -1,11 +1,14 @@
 import React from "react";
+import { useState } from "react";
 
 import { Col, Row, Container, Button, Form } from "react-bootstrap";
+import "react-phone-input-2/lib/style.css";
+import ReCAPTCHA from "react-google-recaptcha";
 
 import seperator from "../../assests/Images/seperator.png";
 import "./Reservations.css";
 import bird from "../../assests/Images/kingfish.png";
-import responsibleTravelBanner from "../../assests/Images/responsibleTravelBanner.png";
+import inner_banner08 from "../../assests/Images/inner_banner08.jpeg";
 import sustainableTourismBanner from "../../assests/Images/sustainableTourismBanner.png";
 import environmentalBanner from "../../assests/Images/environmentalBanner.png";
 import contributionBanner2 from "../../assests/Images/contributionBanner2.png";
@@ -18,12 +21,59 @@ import NavigationBar from "../NavigationBar/NavigationBar";
 import SecondNavBar from "../NavigationBar/SecondNavBar/SecondNavBar";
 import srilankanBanner from "../../assests/Images/srilankanBanner.png";
 import BirdsBanners from "../../assests/Images/150BirdsBanners.png";
+import PhoneInput from "react-phone-input-2";
 
 export default function Reservations() {
+	const [value, setValue] = useState();
+	//const [formValues,setFormValues]=useState(initialValues);
+	//const {register,handleSubmit,formState:{errors}}=useForm();
+	const [form, setForm] = useState({});
+	const [errors, setErrors] = useState({});
+
+	const setField = (field, value) => {
+		setForm({
+			...form,
+			[field]: value,
+		});
+		if (!!errors[field])
+			setErrors({
+				...errors,
+				[field]: null,
+			});
+	};
+
+	const findFormErrors = () => {
+		const { user_name } = form;
+		const newErrors = {};
+
+		// NAME ERROS
+		if (!user_name || user_name.trim() == "") {
+			newErrors.user_name = "Name is Required";
+		}
+
+		return newErrors;
+	};
+
+	const handleSubmit = async (e) => {
+		debugger;
+		e.preventDefault();
+		//get our new errors
+		const newErrors = findFormErrors();
+		//Conditional Login
+		if (Object.keys(newErrors).length > 0) {
+			//WE GOT ERRORS
+			setErrors(newErrors);
+		} else {
+			console.log(form);
+		}
+	};
+
 	return (
 		<div>
 			<Container>
 				<Row className="h">
+					<img width="100%vw" style={{ padding: "0px" }} src={inner_banner08} />
+
 					<div className="col-md-8">
 						<div className="d-flex">
 							<img className="birdimg" src={bird} />
@@ -35,87 +85,52 @@ export default function Reservations() {
 								Please fill out the reservation form below and we will contact
 								you.
 							</p>
-
 							<Form>
 								<Form.Group className="mb-3" controlId="formBasicEmail">
 									<span className="activity-body">
 										<b>
-											Your Name : <span className="astric">*</span>
+											Name : <span className="astric">*</span>
 										</b>
 									</span>
-									<Form.Control className="inputs" type="text" required/>
+									<Form.Control
+										className="inputs"
+										type="text"
+										required
+										onChange={(e) => setField("user_name", e.target.value)}
+										isInvalid={!!errors.user_name}
+									/>
+									<Form.Control.Feedback type="invalid">
+										{errors.user_name}
+									</Form.Control.Feedback>
 								</Form.Group>
 
 								<Form.Group className="mb-3" controlId="formBasicPassword">
 									<span className="activity-body">
 										<b>
-											Your Email : <span className="astric">*</span>
+											E-mail : <span className="astric">*</span>
 										</b>
 									</span>
-									<Form.Control type="email" className="inputs" required/>
+									<Form.Control type="email" className="inputs" required />
 								</Form.Group>
+								{/* <Form.Group className="mb-3" controlId="formBasicPassword">
+									<span className="activity-body">
+										<b>
+											Phone : <span className="astric">*</span>
+										</b>
+										<PhoneInput value={value} onChange={setValue} />
+									</span>
+								
+								</Form.Group> */}
 
+								{/* 
 								<Form.Group className="mb-3" controlId="formBasicPassword">
 									<span className="activity-body">
 										<b>
-											Your Phone : <span className="astric">*</span>
+											Check-in-date : <span className="astric">*</span>
 										</b>
 									</span>
-									<Form.Control type="number" className="inputs" required />
-								</Form.Group>
-
-								<Form.Group className="mb-3" controlId="formBasicPassword">
-									<span className="activity-body">
-										<b>
-											Check-in Date (DD-MM-YY) :{" "}
-											<span className="astric">*</span>
-										</b>
-									</span>
-									<Form.Control type="date" className="inputs" required/>
-								</Form.Group>
-
-								<Form.Group className="mb-3" controlId="formBasicPassword">
-									<span className="activity-body">
-										<b>
-											Check-in Date (DD-MM-YY) :{" "}
-											<span className="astric">*</span>
-										</b>
-									</span>
-									<Form.Control type="date" className="inputs" required/>
-								</Form.Group>
-
-								<span className="activity-body">
-									<b>
-										Room Type : <span className="astric"></span>
-									</b>
-								</span>
-								<Form.Select
-									className="inputs"
-									aria-label="Default select example"
-									required
-								>
-									<option>Select Type</option>
-									<option value="1">Single</option>
-									<option value="2">Double</option>
-									<option value="3">Triple</option>
-								</Form.Select>
-
-								<br></br>
-								<Form.Group className="mb-3" controlId="formBasicPassword">
-									<span className="activity-body">
-										<b>
-											No. of Rooms Required : <span className="astric">*</span>
-										</b>
-									</span>
-									<Form.Control type="number" className="inputs" required/>
-								</Form.Group>
-
-								<Form.Group className="mb-3" controlId="formBasicPassword">
-									<span className="activity-body">
-										<b>No. of Children : </b>
-									</span>
-									<Form.Control type="number" className="inputs" required/>
-								</Form.Group>
+									<Form.Control type="date" className="inputs" required />
+								</Form.Group> */}
 
 								<Form.Group
 									className="mb-3"
@@ -124,15 +139,34 @@ export default function Reservations() {
 									<span className="activity-body">
 										<b>Message : </b>
 									</span>
-									<Form.Control as="textarea" className="inputs" rows={3} />
+									<Form.Control
+										as="textarea"
+										className="inputs"
+										rows={3}
+										required
+									/>
 								</Form.Group>
-								<button variant="primary" className="contact-submit1" type="submit">
+								<ReCAPTCHA
+									sitekey="6Lcgz5AfAAAAABUfpfiRLReta80Wx4x6vVXUmQQR"
+									className="recaptcha"
+									//  onChange={(token) => setToken(token)}
+								/>
+								<button
+									variant="primary"
+									className="contact-submit1"
+									onClick={handleSubmit}
+								>
 									Submit
 								</button>
-								<button variant="primary" className="contact-submit2" type="submit">
+								<button
+									variant="primary"
+									className="contact-submit2"
+									type="submit"
+								>
 									Reset
 								</button>
 							</Form>
+
 							<br></br>
 							<br></br>
 						</div>

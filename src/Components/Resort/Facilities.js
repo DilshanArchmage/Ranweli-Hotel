@@ -23,18 +23,15 @@ export default function Facilities() {
 				<Row className="h">
 					<div className="col-md-12">
 						<div className="d-flex">
-						
+							<p className="bird-subtitle1" id="r1">Restaurant and Bars</p>
 						</div>
 						<div className="birdwelcome-body">
-							<br></br><br></br>
-						<p className="bird-subtitle1">Restaurant and Bars</p>
-							<div className="col-md-12">
-							<img  width="100%vw" src={restaurant_bar} />
-
-</div>
-							
-							
-							
+							<img
+								className="resortbird-watching"
+								// id="birdwelcome-body"
+								style={{ marginLeft: " -45px" }}
+								src={restaurant_bar}
+							/>
 							<p className="birdResortactivity-body">
 								Ranweli's restaurant, offers a delicious buffet and a' la carte
 								Sri Lankan and International cuisine. Vegetarian meals are
@@ -91,8 +88,8 @@ export default function Facilities() {
 								of sparkling wine is served to complement the dinner.
 							</p>
 
-							<p className="bird-subtitle1">Sports Facilities</p>
-							<img className="resortbird-cycling"  width="100%vw" src={sport} />
+							<p className="bird-subtitle1" id="r2">Sports Facilities</p>
+							<img className="resortbird-cycling" src={sport} />
 							<p className="birdResortactivity-body">
 								In order to preserve the tranquility and ambiance of the
 								property, Ranweli offers only soft-impact sports and games
@@ -127,8 +124,8 @@ export default function Facilities() {
 								</p>
 							</p>
 
-							<p className="bird-subtitle1">Shops</p>
-							<img className="resortbird-cycling"  width="100%vw" src={shopsBanner} />
+							<p className="bird-subtitle1" id='r3'>Shops</p>
+							<img className="resortbird-cycling" src={shopsBanner} />
 
 							<p>
 								<b className="birdrest-subheading">
@@ -153,34 +150,33 @@ export default function Facilities() {
 									className="birdResortactivity-body"
 								>
 									A selection of precious and semi-precious stone jewellery by
-									Colombo Gem Crafts and Sangems & Jewellery <a className="home-link2" href="www.sangems.com">www.sangems.com</a> 
+									Colombo Gem Crafts and Sangems & Jewellery<a href='http://www.sangems.com/' style={{textDecoration:'underline'}} className="home-link2"> www.sangems.com</a> 
 								</p>
 							</p>
 
-							<p className="bird-subtitle1">Evening Entertainment</p>
+							<p className="bird-subtitle1" id="r6">Evening Entertainment</p>
 							<img
-							    width="100%vw"
 								className="resortbird-cycling"
 								src={eveningEntertainmentBanner}
 							/>
 							<p>
 								<b className="birdrest-subheading">
-									We offer live entertainment daily. They include:s
+									We offer live entertainment daily. They include:
 								</b>
 							</p>
 
 							<ul className="birdactivity-list1">
-								<li style={{ listStyle: "circle" }}>
+								<li style={{ listStyle: "circle" ,fontWeight:'normal' }}>
 									Cultural show / Sri Lankan Dance
 								</li>
-								<li style={{ listStyle: "circle" }}>Live band</li>
-								<li style={{ listStyle: "circle" }}>Calypso band</li>
-								<li style={{ listStyle: "circle" }}>Magic show</li>
-								<li style={{ listStyle: "circle" }}>Oriental band</li>
+								<li style={{ listStyle: "circle",fontWeight:'normal'  }}>Live band</li>
+								<li style={{ listStyle: "circle" ,fontWeight:'normal' }}>Calypso band</li>
+								<li style={{ listStyle: "circle",fontWeight:'normal'  }}>Magic show</li>
+								<li style={{ listStyle: "circle" ,fontWeight:'normal' }}>Oriental band</li>
 							</ul>
 
-							<p className="bird-subtitle1">Ayurveda</p>
-							<img className="resortbird-cycling"  width="100%vw" src={AyurvedaYogaBanner} />
+							<p className="bird-subtitle1" id="r4">Ayurveda</p>
+							<img className="resortbird-cycling" src={AyurvedaYogaBanner} />
 							<p className="birdResortactivity-body">
 								Ranweli's idyllic location provides tranquility and serenity
 								amidst an expanse of land covering over 22 acres and featuring
@@ -193,13 +189,13 @@ export default function Facilities() {
 								facilities by special arrangement.
 							</p>
 
-							<a href="/sss" className="home-link2">
+							<a href="/sss" style={{textDecoration:'underline'}} className="home-link2">
 								<p style={{ marginLeft: "-40px" }}>More Ayurveda & Yoga</p>
 							</a>
 
-							<p className="bird-subtitle1">Other Facilities</p>
+							<p className="bird-subtitle1" id="r5">Other Facilities</p>
 
-							<img  width="100%vw" className="resortbird-cycling" src={otherFacilitiesBanner} />
+							<img className="resortbird-cycling" src={otherFacilitiesBanner} />
 
 							<p>
 								<b className="birdrest-subheading">
@@ -207,11 +203,11 @@ export default function Facilities() {
 								</b>
 							</p>
 							<ul className="birdactivity-list1">
-								<li style={{ listStyle: "circle" }}>Beach-front Pool</li>
-								<li style={{ listStyle: "circle" }}>
+								<li style={{ listStyle: "circle"  ,fontWeight:'normal'}}>Beach-front Pool</li>
+								<li style={{ listStyle: "circle"  ,fontWeight:'normal'}}>
 									Seminar & Conference Facilities
 								</li>
-								<li style={{ listStyle: "circle" }}>
+								<li style={{ listStyle: "circle" ,fontWeight:'normal' }}>
 									Internet Café, FAX & IDD facilities
 								</li>
 							</ul>

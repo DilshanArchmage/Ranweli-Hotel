@@ -22,12 +22,12 @@ export default function EnvironmentPolicies() {
 		<div>
 			<Container>
 				<Row className="h">
-				<Row>
-					<div className="col-md-12 row-fluid head-img">
-                 <img width="105%vh" src={inner_banner09}/>
+				<img width="100%vw" style={{padding:'0px'}} src={inner_banner09} />
 
-                </div>
-					</Row>
+						
+							
+						
+				
 					<div className="col-md-8">
 						<div className="d-flex">
 							<img className="birdimg" src={bird} />
@@ -42,17 +42,17 @@ export default function EnvironmentPolicies() {
 								country in Asia.
 							</p>
 
-							<p>
+							<p className="activity-body">
 								Ranweli Holiday Village is an eco-friendly tourist resort
 								committed to protecting the environment.
 							</p>
-							<p>
+							<p className="activity-body">
 								We protect the natural habitat. The business operates and
 								conducts operations in an environmentally friendly manner by
 								using our resources efficiently and managing our waste and
 								emissions to minimize the impact on the environment.
 							</p>
-							<p>
+							<p className="activity-body">
 								By conducting regular meetings and through written
 								communications, we make sure our employees, guests, suppliers
 								and the public are aware of our eco-friendly policy. We design
@@ -60,7 +60,7 @@ export default function EnvironmentPolicies() {
 								in order to meet our short and long term environment protection
 								goals.
 							</p>
-							<p>
+							<p className="activity-body">
 								We undertake to comply government legislation and the
 								expectations of the public in this regard. Let's save mother
 								earth
@@ -135,10 +135,10 @@ export default function EnvironmentPolicies() {
 							</p>
 
 							<ul className="activity-list1">
-								<li>Solar energy for water heating</li>
-								<li>Solid/liquid waste treatment technology</li>
-								<li>Maximum use of recyclables</li>
-								<li>Organic vegetable gardens</li>
+								<li style={{ listStyle: "circle",fontWeight:'normal'  }}>Solar energy for water heating</li>
+								<li style={{ listStyle: "circle",fontWeight:'normal'  }}>Solid/liquid waste treatment technology</li>
+								<li style={{ listStyle: "circle",fontWeight:'normal'  }}>Maximum use of recyclables</li>
+								<li style={{ listStyle: "circle",fontWeight:'normal'  }}>Organic vegetable gardens</li>
 							</ul>
 							<br></br>
 
@@ -148,40 +148,51 @@ export default function EnvironmentPolicies() {
 								<b>Local community</b>
 							</p>
 							<p style={{ paddingTop: "5px" }} className="activity-body">
-								TRanweli has been able to establish a relationship with the
-								local village by virtue of providing direct and indirect
-								benefits to the community. Some of these are: use of primary
-								building materials, contracting skilled and semi-skilled labour
-								and purchase of vegetables and fruits, artifacts and arts and
+								Ranweli has been able to establish a relationship with the local
+								village by virtue of providing direct and indirect benefits to
+								the community. Some of these are: use of primary building
+								materials, contracting skilled and semi-skilled labour and
+								purchase of vegetables and fruits, artifacts and arts and
 								crafts.
 							</p>
-							<p>
-								In July 2004, Ranweli received a €500 grant from Ecoclub The
-								Ecoclub Project, to create an organic vegetable plot and
-								greenhouse in a neighboring girls' school. This encouraged the
-								community to initiate home gardens and grow organic vegetables.
+							<p className="activity-body">
+								In July 2004, Ranweli received a €500 grant from Ecoclub{" "}
+								<a className="home-link2" style={{textDecoration: "underline"}} href="https://ecoclub.com/about/projects">
+									The Ecoclub Project
+								</a>{" "}
+								, to create an organic vegetable plot and greenhouse in a
+								neighboring girls' school. This encouraged the community to
+								initiate home gardens and grow organic vegetables.
 							</p>
-							<p>
+							<p className="activity-body">
 								Ranweli believes that the degradation of the environment the
 								vital resource base of tourism can be protected if the younger
 								generation is actively involved in the protection of our natural
 								and cultural resources.
 							</p>
+							<a
+								href="http://ranweli.com/images/ranweli_report.pdf"
+								style={{ textDecoration: "underline" }}
+								className="home-link2"
+							>
+								<p>Click here to view Ranweli product brochure</p>
+							</a>
 
-							<img className="separator" src={seperator} />
 							<p>
 								<br></br>
-								<b>** COMMON IORA </b>Aegthina tiphia S.Iorava 15cm. White rump.
-								Male- Blue-black upper parts. Female- greenish tinge with yellow
-								upper parts. BrR. All Zones.Very Common
+								<i>
+									<b>** COMMON IORA </b>Aegthina tiphia S.Iorava 15cm. White
+									rump. Male- Blue-black upper parts. Female- greenish tinge
+									with yellow upper parts. BrR. All Zones.Very Common
+								</i>
 							</p>
 						</div>
 					</div>
 
 					<div className="col-md-4">
 						<div className="col-md-12">
-							<img style={{ paddingTop: "20px" }} src={srilankanBanner} />
-							<img style={{ paddingTop: "20px" }} src={BirdsBanners} />
+							<a href="/resort"><img style={{ paddingTop: "20px" }} src={srilankanBanner} /></a>
+							<a href="/resort"><img style={{ paddingTop: "20px" }} src={BirdsBanners} /></a>
 						</div>
 					</div>
 				</Row>

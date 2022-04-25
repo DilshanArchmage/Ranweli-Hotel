@@ -32,11 +32,7 @@ export default function Resort() {
 		<div>
 			<Container>
 				<Row className="Rh">
-					<div className=" ">
-						<p>
-							<img width="100%vw" src={the_resort} />
-						</p>
-					</div>
+					<img width="100%vw" style={{ padding: "0px" }} src={the_resort} />
 
 					<div className="col-md-8">
 						<div className="d-flex">
@@ -52,7 +48,7 @@ export default function Resort() {
 								and fauna,and borders the wide sandy beach on one side, and the
 								river on the other.
 							</p>
-							<p>
+							<p className="activity-body">
 								{" "}
 								The land was originally a coconut plantation surrounded by
 								wetlands mainly mangroves. In conceptualizing Ranweli, the
@@ -63,13 +59,13 @@ export default function Resort() {
 								bungalow constructed, only one tree was removed and the tree
 								trunks were used to construct the pillars.
 							</p>
-							<p>
+							<p className="activity-body">
 								{" "}
 								The connecting walkways open out into beautifully tended palm
 								gardens leading to the heart of the resort. Architecturally and
 								aesthetically the construction and furnishing of the village
 								blends western standards of comfort and with the traditions of
-								indigenous Sri Lankan culture..
+								indigenous Sri Lankan culture.
 							</p>
 							<img className="separator" src={seperator} />
 							<br></br>
@@ -79,7 +75,7 @@ export default function Resort() {
 									style={{ listStyle: "none" }}
 									defaultActiveKey="home"
 									transition={false}
-									id="noanim-tab-example"
+									id="facilities"
 									className="mb-3"
 								>
 									<Tab

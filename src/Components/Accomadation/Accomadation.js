@@ -23,12 +23,9 @@ export default function Accomadation() {
 		<div>
 			<Container>
 				<Row className=" h">
-					<Row>
-						<div className="col-md-12 row-fluid head-img">
-							<img width="105%vh" src={accomodation} />
-						</div>
-					</Row>
+				<img width="100%vw" style={{padding:'0px'}} src={accomodation} />
 
+					
 					<div className="col-md-8">
 						<div className="d-flex">
 							<img className="birdimg" src={bird} />
@@ -41,14 +38,14 @@ export default function Accomadation() {
 								local building materials, in a unique ethnic style that
 								resembles a typical Sri Lankan village.
 							</p>
-							<p>
+							<p className="activity-body">
 								{" "}
 								16 Superior Deluxe Sea View Bungalows, 40 Deluxe Sea View
 								Bungalows, 10 Standard Sea View Bungalows, 04 River View
 								Bungalows, 17 Standard Rooms with 01 Suite provide comfortable
 								accommodation.
 							</p>
-							<p>
+							<p className="activity-body">
 								{" "}
 								The interior décor includes terra cotta pots, brass lamps,
 								artifacts produced by local craftsmen and hand-made local
@@ -66,13 +63,13 @@ export default function Accomadation() {
 								mattress, Luxurious bedding and newly fitted furniture.
 							</p>
 
-							<p>
+							<p className="activity-body">
 								Spacious private Bathroom with Hot and Cold Rain Shower, Wall
 								mounted telephone facility & Shower Cubical. It is also equipped
 								with solar powered water heating.
 							</p>
 
-							<p>
+							<p className="activity-body">
 								Each bungalow has an outdoor terrace and offers privacy and an
 								excellent view of the exotic tropical setting which is perfect
 								for a peaceful holiday.
@@ -112,13 +109,13 @@ export default function Accomadation() {
 								Water, Mini Fridge , Tea, Coffee making facilities, Ceiling Fan,
 								Telephone.
 							</p>
-							<p>
+							<p className="activity-body">
 								Bathroom is equipped with solar powered water heating and it is
 								sunlit from an open court to provide ventilation and natural
 								lighting, substantially conserving energy.
 							</p>
 
-							<p>
+							<p className="activity-body">
 								"Malkadol Cottage" is located about 500m away from the common
 								areas including the restaurant & bars. Please email
 								ranweli@slt.lk for rates and availability.

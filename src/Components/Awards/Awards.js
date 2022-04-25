@@ -6,7 +6,7 @@ import './Award.css'
 
 import bird from "../../assests/Images/kingfish.png";
 import seperator from "../../assests/Images/seperator.png";
-import room_types from "../../assests/Images/room_types.jpeg";
+import inner_banner03 from "../../assests/Images/inner_banner03.jpeg";
 import icon_bulet1 from "../../assests/Images/icon_bulet1.jpeg";
 import awards_list from "../../assests/Images/awards_list.jpeg";
 import craftDemonstrationsBanner from "../../assests/Images/craftDemonstrationsBanner.png";
@@ -25,12 +25,7 @@ export default function Awards() {
         <Container>
 				
 				<Row className=" h">
-					<Row>
-					<div className="col-md-12 row-fluid head-img">
-                
-
-                </div>
-					</Row>
+				<img width="100%vw" style={{padding:'0px'}} src={inner_banner03 } />
 					
 				
 					<div className="col-md-8">
@@ -46,7 +41,10 @@ export default function Awards() {
                 <br></br><li className="award-link"  style={{listStyle:'none'}}><img src={icon_bulet1}/> Ranweli Holiday Village has been rewarded with a HolidayCheck Award 2014!</li>
                 <br></br><li className="award-link"  style={{listStyle:'none'}}><img src={icon_bulet1}/> Ranweli Holiday Village has been recognized as a 2013 Wild Asia Responsible Tourism Awards Finalist.</li>
                 <br></br><li className="award-link"  style={{listStyle:'none'}}><img src={icon_bulet1}/> <b>EUSWITCH Asia</b> Greening Hotels Awards 2013 - Ranweli Holiday Village has been adjudged the EUI SWITCH Asia <b>Best Green Hotel, Runner Up </b> in large Hotels (over 50 Rooms) & Boutique Hotels Category)</li>
-                <br></br><li className="award-link"  style={{listStyle:'none'}}><img src={icon_bulet1}/> <b>EU SWITCH Asia</b> - Greening Hotels Awards 2013 Ranweli Holiday Village has been adjudged the EUI SWITCH<b>Water Conservation Champion </b> in the Large Hotels (over 50 Rooms) & Boutique Hotels Category</li>
+                <br></br><li className="award-link"  style={{listStyle:'none'}}><img src={icon_bulet1}/> <b>EU SWITCH Asia</b> - Greening Hotels Awards 2013 Ranweli Holiday Village has been adjudged the EUI SWITCH<b> Water Conservation Champion </b> in the Large Hotels (over 50 Rooms) & Boutique Hotels Category</li>
+                <br></br><li className="award-link"  style={{listStyle:'none'}}><img src={icon_bulet1}/>Ranweli Holiday Village has been rewarded with a HolidayCheck Award 2013!</li>
+                <br></br><li className="award-link"  style={{listStyle:'none'}}><img src={icon_bulet1}/>Ranweli has won the Trip Advisor Travellers' Choice Award 2013!</li>
+
                 <br></br><li className="award-link"  style={{listStyle:'none'}}><img src={icon_bulet1}/> <b>EU SWITCH - </b>Asia Greening Hotels AWARDS 2012 Certificate of Merit for Energy and Water Conservation and Waste Management in the Large Hotels (over 50 rooms) & Boutique Hotels Category</li>
                 <br></br><li className="award-link"  style={{listStyle:'none'}}><img src={icon_bulet1}/> <b>Ranweli receives Trip Advisor Certificate for 2012</b></li>
                 <br></br><li className="award-link"  style={{listStyle:'none'}}><img src={icon_bulet1}/> Ranweli was included in a recent publication and is the only Sri Lankan property included. The book <b>"Authentic Eco Lodges"</b> is written by <b>Mr. Hitesh Mehta</b> who is one of the world's leaders in sustainable landscapes and a visionary in his field.</li>

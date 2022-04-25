@@ -35,6 +35,7 @@ import KualaLumpurVisited from "./Components/WhatsNew/KualaLumpurVisited";
 import Aurudu2012 from "./Components/WhatsNew/Aurudu2012";
 import EchoLodge from "./Components/WhatsNew/EchoLodge";
 import MobileMenu from "./Components/MobileMenu/MobileMenu";
+import Facilities from "./Components/Resort/Facilities";
 
 function App() {
 	return (
@@ -76,6 +77,7 @@ function App() {
 								<Route path='/echolodge' element={<EchoLodge/>}/>
 								<Route path='/mobilenav' element={<MobileMenu/>}/>
 								<Route path="/wedding" element={<Weddings/>}/>
+								<Route path="/facilities" element={<Facilities/>}/>
 
 							</Routes>
 						</BrowserRouter>

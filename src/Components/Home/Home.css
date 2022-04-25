@@ -11,6 +11,11 @@
 	margin-left: -24px;
 }
 
+.slider{
+	width: 100%vh;
+	padding: 0px;
+}
+
 .birdimg {
 	padding-top: 20px;
 }

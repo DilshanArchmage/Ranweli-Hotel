@@ -4,7 +4,7 @@ import { Col, Row, Container, Button } from "react-bootstrap";
 
 import bird from "../../assests/Images/kingfish.png";
 import partnerlogos from "../../assests/Images/partnerlogos.png";
-import room_types from "../../assests/Images/room_types.jpeg";
+import our_partners from "../../assests/Images/our_partners.jpeg";
 import cyclingBanner from "../../assests/Images/cyclingBanner.png";
 import riverCruiseBanner from "../../assests/Images/riverCruiseBanner.png";
 import craftDemonstrationsBanner from "../../assests/Images/craftDemonstrationsBanner.png";
@@ -22,11 +22,7 @@ export default function Partners() {
 		<div>
 			<Container>
 				<Row className=" h">
-					<Row>
-						<div className="col-md-12 row-fluid head-img">
-							
-						</div>
-					</Row>
+				<img width="100%vw" style={{padding:'0px'}} src={our_partners } />
 
 					<div className="col-md-8">
 						<div className="d-flex">
@@ -73,7 +69,7 @@ export default function Partners() {
 								Consequent to winning the British Airways Tourism for Tomorrow
 								Awards in 2003, we were invited to be featured in this web site.
 							</p>
-							<a href="https://web.archive.org/web/20200217045815/http:/www.tourindia.com/htm/homepage.htm" className="home-link2">
+							<a href="https://www.responsibletravel.com/" className="home-link2">
 								<p>www.responsibletravel.com</p>
 							</a>
 
@@ -84,7 +80,7 @@ export default function Partners() {
 							<p className="activity-body">
 								A leading Ecotourism tour operator in Kerala.
 							</p>
-							<a href="https://web.archive.org/web/20200217045815/http:/www.tourindia.com/htm/homepage.htm" className="home-link2">
+							<a href="http://www.tourindia.com/htm/homepage.html" className="home-link2">
 								<p>www.tourindia.com</p>
 							</a>
 							<p className="title2">
@@ -112,10 +108,10 @@ export default function Partners() {
 							<br></br>
 
 							<p>
-								<br></br>
-								<b>** WHITE-THROATED KINGFISHER </b>Halcyon smyrnensis
+								<i><b>** WHITE-THROATED KINGFISHER </b>Halcyon smyrnensis
 								S.Layasudu Pilihuduwa S.Kondaya 30cm. White throat and breast.
-								Blue upperpart. BrR. All Zones.Very Common
+								Blue upperpart. BrR. All Zones.Very Common</i><br></br>
+								
 							</p>
 							<br></br>
 							<br></br>

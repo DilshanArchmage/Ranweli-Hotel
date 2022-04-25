@@ -13,12 +13,16 @@ import Footer from "../Footer/Footer";
 import srilankanBanner from "../../assests/Images/srilankanBanner.png";
 import NavigationBar from "../NavigationBar/NavigationBar";
 import SecondNavBar from "../NavigationBar/SecondNavBar/SecondNavBar";
+import Slider from "../Slider/Slider";
 
 export default function Home() {
 	return (
 		<div>
 			<Container className="home">
 				<Row className="h">
+					<div className="slider">
+						<Slider />
+					</div>
 					<div className="col-md-8">
 						<div className="d-flex">
 							<img className="birdimg" src={bird} />
@@ -54,22 +58,22 @@ export default function Home() {
 									/>
 									<div className="list1 ">
 										<ul>
-											<a href="/resort" className="links">
+											<a href="/resort/?#r1" className="links">
 												<li> Restaurant and Bars</li>
 											</a>
-											<a href="/resort" className="links">
+											<a href="/resort/?#r2" className="links">
 												<li> Sports Facilities</li>
 											</a>
-											<a href="/resort" className="links">
+											<a href="/resort/?#r4" className="links">
 												<li> Ayurvedic Centre</li>
 											</a>
-											<a href="/resort" className="links">
+											<a href="/resort/?#r3" className="links">
 												<li> Eco/Jewellery Shop</li>
 											</a>
-											<a href="/resort" className="links">
+											<a href="/resort/?#r5" className="links">
 												<li> Beachfront Pool</li>
 											</a>
-											<a href="/resort" className="links">
+											<a href="/resort/?#r6" className="links">
 												<li> Evening Entertainment</li>
 											</a>
 											<a href="/resort" className="home-link2">
@@ -88,7 +92,7 @@ export default function Home() {
 									/>
 									<div className="list2 mr-auto">
 										<ul>
-											<a href="/resort" className="links">
+											<a href="/resort/?#b1" className="links">
 												<li> Bird Watching</li>
 											</a>
 											<a href="/resort" className="links">
@@ -142,7 +146,6 @@ export default function Home() {
 						</div>
 					</div>
 
-					
 					<div className="col-md-4">
 						<h3 className="sub-headers1">
 							<b>Holiday Check Award</b>
@@ -167,20 +170,27 @@ export default function Home() {
 								Ranweli Holiday Village has been recognized as a 2013 Wild Asia
 								Responsible Tourism Awards Finalist.
 							</p>
-							<a href="/" className="home-link2">
+							<a
+								href="http://wildasia.org/wp-signup.php?new=tourism"
+								className="home-link2"
+							>
 								<p>Click here for more information</p>
 							</a>
 							<img className="separator2" src={seperator} />
-							<img
-								style={{ paddingTop: "20px" }}
-								className="banner6 img-fluid mr-auto"
-								src={srilankanBanner}
-							/>
-							<img
-								style={{ paddingTop: "20px" }}
-								className="banner6 img-fluid mr-auto"
-								src={BirdsBanners}
-							/>
+							<a href="/resort">
+								<img
+									width="100%vw"
+									className="banner6 img-fluid mr-auto"
+									src={srilankanBanner}
+								/>
+							</a>
+							<a href="/resort">
+								<img
+									style={{ paddingTop: "20px" }}
+									className="banner6 img-fluid mr-auto"
+									src={BirdsBanners}
+								/>
+							</a>
 
 							<p style={{ paddingTop: "30px" }} className="sub-headers1">
 								News

@@ -32,7 +32,8 @@ export default function Activities() {
 							<Row>
 								<div className="col-md-12">
 									<img
-										className="bird-watching mr-auto"
+										className="bird-watching"
+										
 										src={birdWatchingBanner}
 									/>
 								</div>
@@ -44,7 +45,7 @@ export default function Activities() {
 								definite and 7 proposed).
 							</p>
 
-							<p>
+							<p className="activity-body">
 								{" "}
 								Ranweli is located in a coast wetland estuary and this
 								contributes to a large diversity of over 130 species of birds.
@@ -57,22 +58,22 @@ export default function Activities() {
 							<p>
 								<b>Key Facts</b>
 							</p>
-							<ul className="activity-list1">
-								<li style={{ listStyle: "circle" }}>
+							<ul className="activity-list2">
+								<li style={{ listStyle: "circle" ,fontWeight:'normal'}}>
 									Accompanied by an expert ornithologist
 								</li>
-								<li style={{ listStyle: "circle" }}>
+								<li style={{ listStyle: "circle",fontWeight:'normal' }}>
 									Duration: 3 hours, commencing at 07:00hrs. (Breakfast during
 									tour)
 								</li>
-								<li style={{ listStyle: "circle" }}>
+								<li style={{ listStyle: "circle" ,fontWeight:'normal'}}>
 									Rates: US$ 30 per person; minimum 2 persons per tour
 								</li>
-								<li style={{ listStyle: "circle" }}>
+								<li style={{ listStyle: "circle" ,fontWeight:'normal'}}>
 									Reservations in advance at the reception
 								</li>
 								<br></br>
-								<a href="/sss" className="home-link2">
+								<a href="https://ecotourism.org/" className="home-link2">
 									<p>Click here for more information</p>
 								</a>
 							</ul>
@@ -100,7 +101,7 @@ export default function Activities() {
 								and fauna.
 							</p>
 
-							<p>
+							<p className="activity-body">
 								This relaxing two hour walk in our extensive 9 hectare (22 acre)
 								garden, also includes a pass through our boardwalk where the
 								mangroves and their ecosystem can be observed from a higher
@@ -113,16 +114,16 @@ export default function Activities() {
 								<b>Key Facts</b>
 							</p>
 							<ul className="activity-list1">
-								<li style={{ listStyle: "circle" }}>
+								<li style={{ listStyle: "circle",fontWeight:'normal' }}>
 								Accompanied by an expert naturalist
 								</li>
-								<li style={{ listStyle: "circle" }}>
+								<li style={{ listStyle: "circle",fontWeight:'normal' }}>
 								Duration: 2 hours, commencing at 10:00hrs
 								</li>
-								<li style={{ listStyle: "circle" }}>
+								<li style={{ listStyle: "circle" ,fontWeight:'normal'}}>
 								Rates: US$ 15 per person
 								</li>
-								<li style={{ listStyle: "circle" }}>
+								<li style={{ listStyle: "circle",fontWeight:'normal' }}>
 								Reservation in advance with reception
 								</li>
 								
@@ -150,22 +151,22 @@ export default function Activities() {
 								<b>Key Facts</b>
 							</p>
 							<ul className="activity-list1">
-								<li style={{ listStyle: "circle" }}>
+								<li style={{ listStyle: "circle",fontWeight:'normal' }}>
 									Accompanied by a Ranweli guide
 								</li>
-								<li style={{ listStyle: "circle" }}>
+								<li style={{ listStyle: "circle" ,fontWeight:'normal'}}>
 									Tour 1: 16 kms/2 hr duration - US$ 10 per person; minimum 2
 									persons
 								</li>
-								<li style={{ listStyle: "circle" }}>
-									Tour 2: 26 kms/4 hr duration - US$ 15 per person,minimum 2
+								<li style={{ listStyle: "circle" ,fontWeight:'normal'}}>
+									Tour 2: 26 kms/4 hr duration - US$ 15 per person; minimum 2
 									persons
 								</li>
-								<li style={{ listStyle: "circle" }}>
+								<li style={{ listStyle: "circle" ,fontWeight:'normal'}}>
 									Cycle Hires: Half day - US$ 05 per person, Full day: US$ 08
 									per person
 								</li>
-								<li style={{ listStyle: "circle" }}>
+								<li style={{ listStyle: "circle" ,fontWeight:'normal'}}>
 									Reservation in advance with reception
 								</li>
 								<br></br>
@@ -196,21 +197,21 @@ export default function Activities() {
 							<p>
 								<b>Key Facts</b>
 							</p>
-							<ul className="activity-list1">
-								<li style={{ listStyle: "circle" }}>
+							<ul className="activity-list2">
+								<li className="activity-list2" style={{ listStyle: "circle" ,fontWeight:'normal'}}>
 									Accompanied by an expert naturalist
 								</li>
-								<li style={{ listStyle: "circle" }}>
+								<li style={{ listStyle: "circle",fontWeight:'normal' }}>
 									Duration: 2 hours, commencing at 10:00hrs
 								</li>
-								<li style={{ listStyle: "circle" }}>
+								<li style={{ listStyle: "circle",fontWeight:'normal' }}>
 									Rates: US$ 15 per person
 								</li>
-								<li style={{ listStyle: "circle" }}>
+								<li style={{ listStyle: "circle",fontWeight:'normal' }}>
 									Reservation in advance with reception
 								</li>
 							</ul>
-							<p style={{fontSize:"15px", fontStyle: "italic" }}>
+							<p style={{fontSize:"15px", fontStyle: "italic",fontWeight:'normal' }}>
 								Rates are subject to change without notice
 							</p>
 
@@ -229,19 +230,19 @@ export default function Activities() {
 								<b>Programmes</b>
 							</p>
 							<ul className="activity-list1">
-								<li style={{ listStyle: "circle" }}>Basket and mat weaving</li>
-								<li style={{ listStyle: "circle" }}>Cadjan weaving</li>
-								<li style={{ listStyle: "circle" }}>Pottery demonstration</li>
-								<li style={{ listStyle: "circle" }}>
+								<li style={{ listStyle: "circle",fontWeight:'normal' }}>Basket and mat weaving</li>
+								<li style={{ listStyle: "circle",fontWeight:'normal' }}>Cadjan weaving</li>
+								<li style={{ listStyle: "circle",fontWeight:'normal' }}>Pottery demonstration</li>
+								<li style={{ listStyle: "circle" ,fontWeight:'normal'}}>
 									Rope making from Coir fibre
 								</li>
-								<li style={{ listStyle: "circle" }}>Toddy tapping</li>
-								<li style={{ listStyle: "circle" }}>
+								<li style={{ listStyle: "circle",fontWeight:'normal' }}>Toddy tapping</li>
+								<li style={{ listStyle: "circle",fontWeight:'normal' }}>
 									Preparation of treacle, jaggery and vinegar from the sap of a
 									palm flower
 								</li>
-								<li style={{ listStyle: "circle" }}>Sri Lankan cookery</li>
-								<li style={{ listStyle: "circle" }}>
+								<li style={{ listStyle: "circle",fontWeight:'normal' }}>Sri Lankan cookery</li>
+								<li style={{ listStyle: "circle",fontWeight:'normal' }}>
 									Programme on the medicinal value of herbal drinks
 								</li>
 								<br></br>
@@ -253,7 +254,7 @@ export default function Activities() {
 								We organize guided tours in the surroundings of the hotel where
 								you can observe over 50 species of butterflies.
 							</p>
-							<p>
+							<p className="activity-body">
 								You may also have the opportunity to witness the entire life
 								cycle of the butterfly.
 							</p>
@@ -262,10 +263,10 @@ export default function Activities() {
 								<b>Key Facts</b>
 							</p>
 							<ul className="activity-list1">
-								<li style={{ listStyle: "circle" }}>
+								<li style={{ listStyle: "circle" ,fontWeight:'normal'}}>
 									Accompanied by an expert naturalist
 								</li>
-								<li style={{ listStyle: "circle" }}>
+								<li style={{ listStyle: "circle" ,fontWeight:'normal'}}>
 									Reservation in advance with reception
 								</li>
 
@@ -289,7 +290,7 @@ export default function Activities() {
 								and reptiles and amphibians like land monitors, water monitors,
 								lizards, geckoes, skinks, and tortoises can be sighted.
 							</p>
-							<p>
+							<p className="activity-body">
 								There are over 100 species of birds at this site. However, of
 								special interest are species such as Spoonbills, Ibises,
 								Darters, Harriers, species of Bee-eaters, and the Jungle Fowl an
@@ -301,16 +302,16 @@ export default function Activities() {
 								<b>Key Facts</b>
 							</p>
 							<ul className="activity-list1">
-								<li style={{ listStyle: "circle" }}>
+								<li style={{ listStyle: "circle",fontWeight:'normal' }}>
 									Accompanied by an expert naturalist
 								</li>
-								<li style={{ listStyle: "circle" }}>
+								<li style={{ listStyle: "circle",fontWeight:'normal' }}>
 									Air-conditioned car or mini van
 								</li>
-								<li style={{ listStyle: "circle" }}>
+								<li style={{ listStyle: "circle",fontWeight:'normal' }}>
 									A picnic breakfast is included
 								</li>
-								<li style={{ listStyle: "circle" }}>
+								<li style={{ listStyle: "circle" ,fontWeight:'normal'}}>
 									Rate US$ 75 per person; minimum 2 persons
 								</li>
 							</ul>
@@ -340,7 +341,7 @@ export default function Activities() {
 								Handsome stone sculptures and carvings adorn it and rock
 								inscriptions record events at the time.
 							</p>
-							<p>
+							<p className="activity-body">
 								After your visit to Panduwasnuwara you will be taken to
 								Yapahuwa: a citadel built on a huge rock boulder in the style of
 								the 5th Century Sigiriya rock fortress. Well defended with
@@ -354,10 +355,10 @@ export default function Activities() {
 								<b>Key Facts</b>
 							</p>
 							<ul className="activity-list1">
-								<li style={{ listStyle: "circle" }}>
+								<li style={{ listStyle: "circle",fontWeight:'normal' }}>
 									English speaking guide, air-conditioned car or mini van.
 								</li>
-								<li style={{ listStyle: "circle" }}>
+								<li style={{ listStyle: "circle",fontWeight:'normal' }}>
 									US$ 125 per person – minimum 2 persons
 								</li>
 							</ul>
@@ -397,10 +398,10 @@ export default function Activities() {
 								<b>Key Facts</b>
 							</p>
 							<ul className="activity-list1">
-								<li style={{ listStyle: "circle" }}>
+								<li style={{ listStyle: "circle" ,fontWeight:'normal'}}>
 									Rates: 200 US $ per person minimum 2 persons.
 								</li>
-								<li style={{ listStyle: "circle" }}>
+								<li style={{ listStyle: "circle" ,fontWeight:'normal'}}>
 									Reservation one day in advance with reception, Guest relation
 									or Visitor Center
 								</li>

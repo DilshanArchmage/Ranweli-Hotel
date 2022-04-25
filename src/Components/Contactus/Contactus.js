@@ -1,12 +1,13 @@
 import React from "react";
+import { useState } from "react";
 
 import { Col, Row, Container, Button, Form } from "react-bootstrap";
 
 import seperator from "../../assests/Images/seperator.png";
-import './Contactus.css'
+import "./Contactus.css";
 
 import bird from "../../assests/Images/kingfish.png";
-import responsibleTravelBanner from "../../assests/Images/responsibleTravelBanner.png";
+import contact_us from "../../assests/Images/contact_us.jpeg";
 import sustainableTourismBanner from "../../assests/Images/sustainableTourismBanner.png";
 import environmentalBanner from "../../assests/Images/environmentalBanner.png";
 import contributionBanner2 from "../../assests/Images/contributionBanner2.png";
@@ -19,14 +20,16 @@ import NavigationBar from "../NavigationBar/NavigationBar";
 import SecondNavBar from "../NavigationBar/SecondNavBar/SecondNavBar";
 import srilankanBanner from "../../assests/Images/srilankanBanner.png";
 import BirdsBanners from "../../assests/Images/150BirdsBanners.png";
-
-
+import PhoneInput from "react-phone-input-2";
 
 export default function Contactus() {
-  return (
-    <div>
-        <Container>
+	const [value, setValue] = useState();
+	return (
+		<div>
+			<Container>
 				<Row className="h">
+					<img width="100%vw" style={{ padding: "0px" }} src={contact_us} />
+
 					<div className="col-md-8">
 						<div className="d-flex">
 							<img className="birdimg" src={bird} />
@@ -35,7 +38,9 @@ export default function Contactus() {
 						</div>
 						<div className="welcome-body">
 							<p>
-                            Have a suggestion on how to improve our service? Feedback about the site? Please use the form below to send us your thoughts, suggestions and questions.
+								Have a suggestion on how to improve our service? Feedback about
+								the site? Please use the form below to send us your thoughts,
+								suggestions and questions.
 							</p>
 
 							<Form>
@@ -45,7 +50,7 @@ export default function Contactus() {
 											Name : <span className="astric">*</span>
 										</b>
 									</span>
-									<Form.Control className="inputs" type="text" />
+									<Form.Control className="inputs" type="text" required />
 								</Form.Group>
 
 								<Form.Group className="mb-3" controlId="formBasicPassword">
@@ -54,28 +59,19 @@ export default function Contactus() {
 											E-mail : <span className="astric">*</span>
 										</b>
 									</span>
-									<Form.Control type="email" className="inputs" />
+									<Form.Control type="email" className="text" required />
 								</Form.Group>
 
-								
+								<PhoneInput value={value} onChange={setValue} />
 
 								<Form.Group className="mb-3" controlId="formBasicPassword">
 									<span className="activity-body">
 										<b>
-											Subject :{" "}
-											<span className="astric">*</span>
+											Subject : <span className="astric">*</span>
 										</b>
 									</span>
-									<Form.Control type="email" className="inputs" />
+									<Form.Control type="text" className="inputs" required />
 								</Form.Group>
-
-								
-
-								
-
-								 
-
-								
 
 								<Form.Group
 									className="mb-3"
@@ -84,12 +80,25 @@ export default function Contactus() {
 									<span className="activity-body">
 										<b>Message : </b>
 									</span>
-									<Form.Control as="textarea" className="inputs" rows={3} />
+									<Form.Control
+										as="textarea"
+										className="inputs"
+										rows={3}
+										required
+									/>
 								</Form.Group>
-								<button variant="primary" className="contact-submit1" type="submit">
+								<button
+									variant="primary"
+									className="contact-submit1"
+									type="submit"
+								>
 									Submit
 								</button>
-								<button variant="primary" className="contact-submit2" type="submit">
+								<button
+									variant="primary"
+									className="contact-submit2"
+									type="submit"
+								>
 									Reset
 								</button>
 							</Form>
@@ -122,6 +131,6 @@ export default function Contactus() {
 				</Row>
 				<Footer />
 			</Container>
-    </div>
-  )
+		</div>
+	);
 }

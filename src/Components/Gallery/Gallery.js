@@ -22,7 +22,7 @@ import facebookbanner2 from "../../assests/Images/facebookbanner.png";
 import flickrbanner from "../../assests/Images/flickrbanner.png";
 import Tourism_Awards from "../../assests/Images/Tourism_Awards.gif";
 import Footer from "../Footer/Footer";
-import archaeologicalToursBanner from "../../assests/Images/archaeologicalToursBanner.png";
+import inner_banner13 from "../../assests/Images/inner_banner13.jpeg";
 import NavigationBar from "../NavigationBar/NavigationBar";
 import SecondNavBar from "../NavigationBar/SecondNavBar/SecondNavBar";
 import accomodation from "../../assests/Images/accomodation.jpeg";
@@ -32,6 +32,8 @@ export default function Gallery() {
 		<div>
 			<Container>
 				<Row className=" h">
+				<img width="100%vw" style={{padding:'0px'}} src={inner_banner13} />
+
 					<div className="col-md-8">
 						<div className="d-flex">
 							<img className="birdimg" src={bird} />
@@ -85,19 +87,19 @@ export default function Gallery() {
 					<div className="col-md-4">
 						<Row>
 							<div className="col-md-12">
-								<img className="acco-img" src={facebookbanner2} />
+							<a href='https://www.facebook.com/pages/Ranweli-Holiday-Village/176149999077507'><img className="acco-img"  src={facebookbanner2} /></a>	
 							</div>
 						</Row>
 						<Row>
 							<div className="col-md-12">
-								<img src={flickrbanner} />
+								<a href='http://www.flickr.com/search/?q=ranweli'><img src={flickrbanner} /></a>
 							</div>
 						</Row>
 						<Row>
 							<div>
 								<video width="320" height="240" controls>
 									<source
-										src="https://web.archive.org/web/20220331102540/https://youtu.be/ws9rKGOlBMg"
+										src="https://youtu.be/ws9rKGOlBMg"
 										type="video/mp4"
 									/>
 									

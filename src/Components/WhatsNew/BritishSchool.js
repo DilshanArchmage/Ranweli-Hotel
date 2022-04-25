@@ -2,6 +2,8 @@ import React from "react";
 import { Col, Row, Container, Button } from "react-bootstrap";
 import pdfIcon from "../../assests/Images/pdfIcon.jpeg";
 import bird from "../../assests/Images/kingfish.png";
+import inner_banner06 from "../../assests/Images/inner_banner06.jpeg";
+
 import bs_nature_walk from "../../assests/Images/bs_nature_walk.jpeg";
 import bs_butterfuly from "../../assests/Images/bs_butterfuly.jpeg";
 import bs_boat_trip from "../../assests/Images/bs_boat_trip.jpeg";
@@ -14,18 +16,21 @@ import archaeologicalToursBanner from "../../assests/Images/archaeologicalToursB
 import NavigationBar from "../NavigationBar/NavigationBar";
 import SecondNavBar from "../NavigationBar/SecondNavBar/SecondNavBar";
 import seperator from "../../assests/Images/seperator.png";
+import "./WhatsNew.css";
+
 
 export default function Aboutus() {
 	return (
 		<div>
 			<Container>
 				<Row className="h">
+				<img width="100%vw" style={{padding:'0px'}} src={inner_banner06} />
 					<div className="col-md-8">
 						<div className="d-flex">
 							<img className="birdimg" src={bird} />
 
 							<h2 className="home-welcome">
-								The British School of Colombo visited Ranweli
+								The British School of Colombo Visited Ranweli
 							</h2>
 						</div>
 						<div className="welcome-body">
@@ -41,7 +46,7 @@ export default function Aboutus() {
 									<img src={bs_nature_walk} />
 								</div>
 								<div className="col-md-8">
-									<p className="activity-body" style={{ paddingLeft: "20px" }}>
+									<p className="kactivity-body" style={{ paddingLeft: "20px" }}>
 										The kids were enthralled by the Natural environment around
 										the resort while on a nature tour. They observed terrestrial
 										plants, the rich mangrove eco system and the importance of
@@ -55,7 +60,7 @@ export default function Aboutus() {
 									<img src={bs_butterfuly} />
 								</div>
 								<div className="col-md-8">
-									<p className="activity-body" style={{ paddingLeft: "20px" }}>
+									<p className="wactivity-body" style={{ paddingLeft: "20px" }}>
 										At the Butterfly Corner at Ranweli the students observed the
 										"life cycle of the Butterfly" including their host plant and
 										food plant.
@@ -68,10 +73,10 @@ export default function Aboutus() {
 									<img src={bs_boat_trip} />
 								</div>
 								<div className="col-md-8">
-									<p className="activity-body" style={{ paddingLeft: "20px" }}>
-										At the Butterfly Corner at Ranweli the students observed the
-										"life cycle of the Butterfly" including their host plant and
-										food plant.
+									<p className="wactivity-body" style={{ paddingLeft: "20px" }}>
+										
+										While on a boat ride on the Gin Oya the children learnt
+										about the unique eco system of the Mangrove Community.
 									</p>
 									<br></br>
 								</div>
@@ -81,7 +86,7 @@ export default function Aboutus() {
 					</div>
 
 					<div className="col-md-4">
-                    <Row>
+						<Row>
 							<div className="col-md-12 whts-tab">
 								<table>
 									<tr>

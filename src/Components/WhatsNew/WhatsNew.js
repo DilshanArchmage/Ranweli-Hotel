@@ -5,7 +5,7 @@ import "./WhatsNew.css";
 import Pagination from "./Pagination.js";
 import bird from "../../assests/Images/kingfish.png";
 import pdfIcon from "../../assests/Images/pdfIcon.jpeg";
-import room_types from "../../assests/Images/room_types.jpeg";
+import inner_banner06 from "../../assests/Images/inner_banner06.jpeg";
 import timthumb1 from "../../assests/Images/timthumb (1).jpeg";
 import timthumb2 from "../../assests/Images/timthumb (2).jpeg";
 import timthumb3 from "../../assests/Images/timthumb (3).jpeg";
@@ -34,6 +34,8 @@ export default function WhatsNew() {
 		<div>
 			<Container>
 				<Row className=" h">
+				<img width="100%vw" style={{padding:'0px'}} src={inner_banner06} />
+
 					<div className="col-md-8">
 						<div className="d-flex">
 							<img className="birdimg" src={bird} />
