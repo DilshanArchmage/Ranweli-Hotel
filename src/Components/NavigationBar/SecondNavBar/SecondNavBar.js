@@ -7,42 +7,16 @@ import { BrowserRouter } from "react-router-dom";
 export default function SecondNavBar() {
 	return (
 		<div>
-			
-			<Navbar collapseOnSelect expand="lg" className="secondnavigation-bar">
-				<Container>
-					{/* <Navbar.Brand href="#home">
-                <img src={logo} className="nav-logo" />
-            </Navbar.Brand> */}
-
-					<Navbar.Toggle aria-controls="responsive-navbar-nav" />
-					<Navbar.Collapse id="responsive-navbar-nav">
-						{/* <Nav className="me-auto">
-
-</Nav> */}
-
-						<div className="navlink-menu">
-							<div style={{ textAlign: "right", paddingTop: "-5px" }}>
-								
-							</div>
-							<div className="secondnavlink-menu">
-								<Nav>
-									<Nav.Link href="/">Home</Nav.Link>
-									<Nav.Link href="/activity">Activity</Nav.Link>
-									<Nav.Link href="/resort">The Resort</Nav.Link>
-									<Nav.Link href="/accomadation">Accomadation</Nav.Link>
-									<Nav.Link href="/environment">Environment Policies</Nav.Link>
-									<Nav.Link href="/ayurweda">Ayurveda</Nav.Link>
-									<Nav.Link href="/wedding">Weddings</Nav.Link>
-									<Nav.Link href="/reservation">Reservations</Nav.Link>
-
-									<div className="secondNav"></div>
-								</Nav>
-							</div>
-						</div>
-					</Navbar.Collapse>
-				</Container>
-			</Navbar>
-			
+			<div className="second-menu">
+				< a href="/">Home</a>
+				<a href="/activity">Activity</a>
+				<a href="/resort">The Resort</a>
+				<a href="/accomadation">Accomadation</a>
+				<a href="/environment">Environment Policies</a>
+				<a href="/ayurweda">Ayurveda</a>
+				<a href="/wedding">Weddings</a>
+				<a href="/reservation">Reservations</a>
+			</div>
 		</div>
 	);
 }

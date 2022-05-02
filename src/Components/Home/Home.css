@@ -2,14 +2,7 @@
 	color: black;
 	background-color: #faf5ea;
 }
-.row {
-	--bs-gutter-y: 0;
-	display: flex;
-	flex-wrap: wrap;
-	margin-top: calc(-1 * var(--bs-gutter-y));
-	margin-right: -8px;
-	margin-left: -24px;
-}
+
 
 .slider {
 	width: 100%vh;

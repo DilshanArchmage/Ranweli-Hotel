@@ -40,14 +40,14 @@ import Facilities from "./Components/Resort/Facilities";
 function App() {
 	return (
 		<div>
-			<Row>
+			<Container>
 				<section>
-					<Container className="body-container">
+					<div className="body-container">
 						{/* <NavigationBar /> */}
 						{/* <div className="secondfooter">
 							<SecondNavBar />
 						</div> */}
-						<MobileMenu/>
+						{/* <MobileMenu/> */}
 						<TopNavBar />
 						<SecondNavBar />
 						<BrowserRouter>
@@ -81,9 +81,9 @@ function App() {
 
 							</Routes>
 						</BrowserRouter>
-					</Container>
+					</div>
 				</section>
-			</Row>
+			</Container>
 		</div>
 	);
 }

@@ -39,6 +39,7 @@
 }
 .body-container {
 	max-width: 1035px;
+	margin: auto;
 }
 .secondfooter {
 	padding-top: -10px;

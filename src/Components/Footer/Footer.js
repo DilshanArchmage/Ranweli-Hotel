@@ -45,19 +45,21 @@ export default function Footer() {
 
             {/* </div> */}
 
-          <ul className='partner-list'style={{flexWrap:'wrap'}} >
-              <li style={{listStyle:'none',display:'inline-block',padding:'3px 10px'}}><h5>Partners |</h5></li>
-              <a href=''><li style={{listStyle:'none',display:'inline-block'}}><img className='parentImage' width="100%vw"  src={partners_1}/></li></a>
-              <a href='https://ecoclub.com/'><li style={{listStyle:'none',display:'inline-block'}}><img className='parentImage' width="100%vw" src={partners_2}/></li></a>
-              <a href='https://www.responsibletravel.com/'><li style={{listStyle:'none',display:'inline-block'}}><img className='parentImage' width="100%vw" src={partners_3}/></li></a>
-              <a href='https://ecotourism.org/'><li style={{listStyle:'none',display:'inline-block'}}><img className='parentImage' width="100%vw"  src={partners_4}/></li></a>
-              <a href='http://www.birdlife.org/'><li style={{listStyle:'none',display:'inline-block'}}><img className='parentImage' width="100%vw" src={partners_5}/></li></a>
-              <a href=''><li style={{listStyle:'none',display:'inline-block'}}><img className='parentImage' width="100%vw"  src={partners_6}/></li></a>
-              <a href=''><li style={{listStyle:'none',display:'inline-block'}}><img className='parentImage' width="100%vw"  src={partners_7}/></li></a>
-             
+          <div className='partner-list d-flex'>
+            
+              <div ><h5>Partners |</h5></div>
+              <div className='logoes d-flex'>
+              <a href=''><li ><img className='parentImage' width="100%vw"  src={partners_1}/></li></a>
+              <a href='https://ecoclub.com/'><li ><img className='parentImage' width="100%vw" src={partners_2}/></li></a>
+              <a href='https://www.responsibletravel.com/'><li ><img className='parentImage' width="100%vw" src={partners_3}/></li></a>
+              <a href='https://ecotourism.org/'><li ><img className='parentImage' width="100%vw"  src={partners_4}/></li></a>
+              <a href='http://www.birdlife.org/'><li ><img className='parentImage' width="100%vw" src={partners_5}/></li></a>
+              <a href=''><li ><img className='parentImage' width="100%vw"  src={partners_6}/></li></a>
+              <a href=''><li ><img className='parentImage' width="100%vw"  src={partners_7}/></li></a>
+             </div>
              
               
-          </ul>
+          </div>
          
         </Row>
         <Row>

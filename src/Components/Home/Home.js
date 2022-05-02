@@ -18,11 +18,17 @@ import Slider from "../Slider/Slider";
 export default function Home() {
 	return (
 		<div>
+			<div className="slider">
+							<Slider />
+						</div>
 			<Container className="home">
+				
+			{/* <div className="col-md-12"> */}
+						
+					{/* </div> */}
 				<Row className="h">
-					<div className="slider">
-						{/* <Slider /> */}
-					</div>
+					
+
 					<div className="col-md-8">
 						<div className="d-flex">
 							<img className="birdimg" src={bird} />
@@ -229,8 +235,9 @@ export default function Home() {
 						</a>
 					</div>
 				</Row>
-				<Footer />
+				
 			</Container>
+			<Footer />
 		</div>
 	);
 }
