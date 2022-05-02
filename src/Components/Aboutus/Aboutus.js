@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Row, Container, Button } from "react-bootstrap";
+import "./Aboutus.css";
 
 import bird from "../../assests/Images/kingfish.png";
 import facebookbanner from "../../assests/Images/facebookbanner.png";
@@ -19,7 +20,7 @@ export default function Aboutus() {
 	return (
 		<div>
 			<Container>
-				<Row className="h">
+				<Row className="abh">
 					<img width="100%vw" style={{ padding: "0px" }} src={inner_banner01} />
 					<div className="col-md-8">
 						<div className="d-flex">
@@ -70,14 +71,28 @@ export default function Aboutus() {
 
 					<div className="col-md-4">
 						<div className="col-md-12">
-							<a href="https://www.facebook.com/pages/Ranweli-Holiday-Village/176149999077507"><img width="100%vw" style={{ padding: "0px" }} src={facebookbanner} /></a>
+							<a href="https://www.facebook.com/pages/Ranweli-Holiday-Village/176149999077507">
+								<img
+									width="100%vw"
+									style={{ padding: "0px" }}
+									src={facebookbanner}
+								/>
+							</a>
 
-							<a href='http://www.flickr.com/search/?q=ranweli'><img width="100%vw" style={{ padding: "0px" }} src={flickrbanner} /></a>
-							<img width="100%vw" style={{ padding: "0px" }}  src={ranwelimap} />
+							<a href="http://www.flickr.com/search/?q=ranweli">
+								<img
+									width="100%vw"
+									style={{ padding: "0px" }}
+									src={flickrbanner}
+								/>
+							</a>
+							<img width="100%vw" style={{ padding: "0px" }} src={ranwelimap} />
 						</div>
 					</div>
 				</Row>
-				<Footer />
+				<div className="about-footer">
+					<Footer />
+				</div>
 			</Container>
 		</div>
 	);

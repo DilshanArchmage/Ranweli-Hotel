@@ -431,7 +431,11 @@ export default function Activities() {
 						</p>
 					</div>
 				</Row>
+				<div className="act-footer">
 				<Footer />
+
+				</div>
+				
 			</Container>
 		</div>
 	);

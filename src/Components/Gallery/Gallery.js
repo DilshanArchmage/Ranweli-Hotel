@@ -31,7 +31,7 @@ export default function Gallery() {
 	return (
 		<div>
 			<Container>
-				<Row className=" h">
+				<Row className=" gh">
 				<img width="100%vw" style={{padding:'0px'}} src={inner_banner13} />
 
 					<div className="col-md-8">
@@ -87,20 +87,21 @@ export default function Gallery() {
 					<div className="col-md-4">
 						<Row>
 							<div className="col-md-12">
-							<a href='https://www.facebook.com/pages/Ranweli-Holiday-Village/176149999077507'><img className="acco-img"  src={facebookbanner2} /></a>	
+							<a href='https://www.facebook.com/pages/Ranweli-Holiday-Village/176149999077507'><img className="acco-img" width="100%vw"  src={facebookbanner2} /></a>	
 							</div>
 						</Row>
 						<Row>
 							<div className="col-md-12">
-								<a href='http://www.flickr.com/search/?q=ranweli'><img src={flickrbanner} /></a>
+								<a href='http://www.flickr.com/search/?q=ranweli'><img width="100%vw" src={flickrbanner} /></a>
 							</div>
 						</Row>
 						<Row>
 							<div>
-								<video width="320" height="240" controls>
+								<video width="100%vw" controls>
 									<source
 										src="https://youtu.be/ws9rKGOlBMg"
 										type="video/mp4"
+										width="100%vw"
 									/>
 									
 								</video>

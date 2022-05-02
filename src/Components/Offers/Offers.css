@@ -1,0 +1,12 @@
+.oh {
+	color: black;
+	background-color: #faf5ea;
+}
+@media(max-width:375px){
+
+	.oh{
+        margin-left: 1px;
+        width: 110%;
+    }
+
+}

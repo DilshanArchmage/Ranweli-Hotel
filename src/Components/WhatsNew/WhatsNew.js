@@ -33,7 +33,7 @@ export default function WhatsNew() {
 	return (
 		<div>
 			<Container>
-				<Row className=" h">
+				<Row className=" wh">
 				<img width="100%vw" style={{padding:'0px'}} src={inner_banner06} />
 
 					<div className="col-md-8">

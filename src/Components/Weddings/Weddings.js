@@ -22,7 +22,7 @@ export default function Weddings() {
 	return (
 		<div>
 			<Container>
-				<Row className=" h">
+				<Row className="wdh">
 					<img width="100%vw" style={{ padding: "0px" }} src={wedding} />
 
 					<div className="col-md-8">

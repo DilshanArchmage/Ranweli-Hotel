@@ -187,3 +187,17 @@ td {
     padding-top: 20px;
    margin-left: -10px;
   }
+
+  .wh {
+    color: black;
+    background-color: #faf5ea;
+  }
+  @media(max-width:375px){
+  
+    .wh{
+          margin-left: 1px;
+          width: 110%;
+      }
+  
+  }
+  

@@ -1,0 +1,13 @@
+
+.ph {
+	color: black;
+	background-color: #faf5ea;
+}
+@media(max-width:375px){
+  
+    .ph{
+          margin-left: 1px;
+          width: 110%;
+      }
+  
+  }

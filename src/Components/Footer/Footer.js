@@ -82,12 +82,12 @@ export default function Footer() {
             
             <div className='footerinfo' >
             <ul className=''>
-           <a href='/resort' style={{textDecoration:'none'}}> <li style={{listStyle:'square'}} className='footerinfo'><img src={listmark}/> Restaurant and Bars</li></a>
-           <a href='/resort' style={{textDecoration:'none'}}> <li style={{listStyle:'square'}} className='footerinfo'><img src={listmark}/> Sports Facilities</li></a>
-           <a href='/resort' style={{textDecoration:'none'}}><li style={{listStyle:'square'}} className='footerinfo'><img src={listmark}/> Ayurvedic Centre</li></a>
-           <a href='/resort' style={{textDecoration:'none'}}> <li style={{listStyle:'square'}} className='footerinfo'><img src={listmark}/> Eco/Jewellery Shop</li></a>
-           <a href='/resort' style={{textDecoration:'none'}}> <li style={{listStyle:'square'}} className='footerinfo'><img src={listmark}/> Beachfront Poolp</li></a>
-           <a href='/resort' style={{textDecoration:'none'}}><li style={{listStyle:'square'}} className='footerinfo'><img src={listmark}/> Evening Entertainment</li></a>
+           <a href='/resort/?#r1' style={{textDecoration:'none'}}> <li style={{listStyle:'square'}} className='footerinfo'><img src={listmark}/> Restaurant and Bars</li></a>
+           <a href='/resort/?#r2' style={{textDecoration:'none'}}> <li style={{listStyle:'square'}} className='footerinfo'><img src={listmark}/> Sports Facilities</li></a>
+           <a href='/resort/?#r4' style={{textDecoration:'none'}}><li style={{listStyle:'square'}} className='footerinfo'><img src={listmark}/> Ayurvedic Centre</li></a>
+           <a href='/resort/?#r3' style={{textDecoration:'none'}}> <li style={{listStyle:'square'}} className='footerinfo'><img src={listmark}/> Eco/Jewellery Shop</li></a>
+           <a href='/resort/?#r5' style={{textDecoration:'none'}}> <li style={{listStyle:'square'}} className='footerinfo'><img src={listmark}/> Beachfront Poolp</li></a>
+           <a href='/resort/?#r6' style={{textDecoration:'none'}}><li style={{listStyle:'square'}} className='footerinfo'><img src={listmark}/> Evening Entertainment</li></a>
           
             </ul>
             </div>
@@ -124,7 +124,7 @@ export default function Footer() {
             <br>
             </br>
         <div className='second-footer' style={{display:'flex',direction:'row',justifyContent:'center',color:'#b1a079'}}>
-         <a href='/' className='footer-link2'>Home |</a> <a href='/resort' className='footer-link2'><p>The Resort |</p></a><a href='/accomadation' className='footer-link2'><p>Accommodation |</p></a><a href='/environment' className='footer-link2'><p>Nature & Culture |</p></a><a href='/ayurweda' className='footer-link2'><p>Ayurveda |</p></a><a href='/wedding' className='footer-link2'><p>Weddings |</p></a><a href='/reservation' className='footer-link2'><p>Rates & Reservations |</p></a><a href='/aboutus' className='footer-link2'><p>About Us |</p></a><a href='/partners' className='footer-link2'><p>Our Partners |</p></a><a href='/awards' className='footer-link2'><p>Awards & Recognition |</p></a><a href='/whatsnew' className='footer-link2'><p>What's New |</p></a><a href='/gallery' className='footer-link2'><p>Gallery |</p></a><a href='/contactus' className='footer-link2'><p>Contact Us  </p></a>
+         <a href='/' className='footer-link2'>Home |</a> <a href='/resort' className='footer-link2'><p>The Resort |</p></a><a href='/accomadation' className='footer-link2'><p>Accommodation |</p></a><a href='/environment' className='footer-link2'><p>Nature & Culture |</p></a><a href='/ayurweda' className='footer-link2'><p>Ayurveda |</p></a><a href='/wedding' className='footer-link2'><p>Weddings |</p></a><a href='/reservation' className='footer-link2'><p>Rates & Reservations |</p></a><a href='/about' className='footer-link2'><p>About Us |</p></a><a href='/parnters' className='footer-link2'><p>Our Partners |</p></a><a href='/award' className='footer-link2'><p>Awards & Recognition |</p></a><a href='/whatsnew' className='footer-link2'><p>What's New |</p></a><a href='/gallery' className='footer-link2'><p>Gallery |</p></a><a href='/contact' className='footer-link2'><p>Contact Us  </p></a>
           <p className='copyright'>Copyright © Ranweli Holiday Village 2013. All Rights Reserved.</p>
           <br></br>
          <p >Designed & Developed by Archmage</p>

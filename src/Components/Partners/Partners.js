@@ -1,6 +1,7 @@
 import React from "react";
 
 import { Col, Row, Container, Button } from "react-bootstrap";
+import './Parners.css'
 
 import bird from "../../assests/Images/kingfish.png";
 import partnerlogos from "../../assests/Images/partnerlogos.png";
@@ -21,7 +22,7 @@ export default function Partners() {
 	return (
 		<div>
 			<Container>
-				<Row className=" h">
+				<Row className="ph">
 				<img width="100%vw" style={{padding:'0px'}} src={our_partners } />
 
 					<div className="col-md-8">

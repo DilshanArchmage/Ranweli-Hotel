@@ -47,3 +47,17 @@ hr{
     border: 0;
     opacity: .1;
 }
+
+.wdh {
+	color: black;
+	background-color: #faf5ea;
+}
+
+@media(max-width:375px){
+  
+    .wdh{
+          margin-left: 0px;
+          width: 110%;
+      }
+  
+  }

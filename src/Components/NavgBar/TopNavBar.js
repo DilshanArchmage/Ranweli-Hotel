@@ -1,5 +1,6 @@
 import React from "react";
 import "./TopNavBar.css";
+import { NavLink } from "react-router-dom";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from "../../assests/Images/Ranweli_Logo.png";
 import ranweli_fb_icon from "../../assests/Images/ranweli_fb_icon.png";
@@ -8,7 +9,7 @@ import ranweli_flickr_icon from "../../assests/Images/ranweli_flickr_icon.png";
 export default function TopNavBar() {
 	return (
 		<div>
-			<div className="">
+			<div className="navigation-bar">
 				<Navbar
 					collapseOnSelect
 					className="top-nav"
@@ -18,15 +19,16 @@ export default function TopNavBar() {
 				>
 					<Container>
 						<Navbar.Brand href="/">
-							<img src={logo} className="nav-logo" />
+							<img src={logo}  className="nav-logo" />
                             
 						</Navbar.Brand>
 
 						<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 						<Navbar.Collapse id="responsive-navbar-nav">
-							<Nav>
+							<Nav id="container">
                             {/* <img src={ranweli_fb_icon} className="fb-link" />
                             <img src={ranweli_flickr_icon} className="fb-link" /> */}
+							
                                 <Nav.Link href="/about">About Us</Nav.Link>
 								<Nav.Link href="/parnters">Our Partners</Nav.Link>
 								<Nav.Link href="/award">Awards & Recognition</Nav.Link>

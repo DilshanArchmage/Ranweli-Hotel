@@ -17,6 +17,7 @@ import NavigationBar from "../NavigationBar/NavigationBar";
 import SecondNavBar from "../NavigationBar/SecondNavBar/SecondNavBar";
 import srilankanBanner from "../../assests/Images/srilankanBanner.png";
 import BirdsBanners from "../../assests/Images/150BirdsBanners.png";
+import './Ayurweda.css'
 
 export default function Ayurweda() {
 	return (
@@ -151,7 +152,11 @@ export default function Ayurweda() {
 						</p>
 					</div>
 				</Row>
+				<div className="ayr-footer">
 				<Footer />
+
+				</div>
+				
 			</Container>
 		</div>
 	);

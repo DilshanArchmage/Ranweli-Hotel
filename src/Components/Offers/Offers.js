@@ -26,12 +26,13 @@ import archaeologicalToursBanner from "../../assests/Images/archaeologicalToursB
 import NavigationBar from "../NavigationBar/NavigationBar";
 import SecondNavBar from "../NavigationBar/SecondNavBar/SecondNavBar";
 import accomodation from "../../assests/Images/accomodation.jpeg";
+import './Offers.css'
 
 export default function Offers() {
   return (
     <div>
         <Container>
-				<Row className=" h">
+				<Row className=" oh">
         <img width="100%vw" style={{padding:'0px'}} src={special_offer_inner} />
 
 					<div className="col-md-8">

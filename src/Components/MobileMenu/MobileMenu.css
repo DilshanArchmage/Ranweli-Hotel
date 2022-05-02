@@ -1,4 +1,76 @@
-.mobile-menu{
-    color: antiquewhite;
-    font-size: 30px;
+.mobile-menu {
+	background: url("/src/assests/Images/header_bg.png") repeat;
+	margin-top: 20px;
+	padding-top: 1px;
+	padding-bottom: 0.3125rem;
+	margin-right: 1rem;
+	font-size: 1.25rem;
+	text-decoration: none;
+	white-space: nowrap;
+	padding-top: 15px;
+	height: 100px;
+	max-width: 100%;
+}
+div#responsive-navbar-nav\ nav-collapse {
+	background: url("/src/assests/Images/header_bg.png") #8b6a35 ;
+	padding: 15px;
+	z-index: 10;
+	margin-left: -25px;
+	margin-right: -25px;
+	background-repeat: revert;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+	color: black;
+	text-decoration: underline;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .show > .nav-link {
+	/* color: #fff; */
+	color: black;
+}
+.navbar-dark .navbar-toggler-icon {
+	/* background-image: url('http://www.w3.org/2000/svg' ); */
+	background-color: #8b6a35;
+	border-radius: 5px;
+	/* padding-left: 21px; */
+	/* margin-left: 240px; */
+	margin-right: -25px;
+	/* height: 34px; */
+	width: 40px;
+	/* color: white; */
+}
+@media (max-width: 375px) {
+	.mobile-menu {
+		margin-left: 25px;
+		visibility: visible;
+	}
+	.nav-logo {
+		max-width: 150px;
+		margin-left: -20px;
+	}
+	.nav-collapse {
+		margin-bottom: 0px;
+		color: #8b6a35;
+	}
+}
+
+@media (max-width: 414px) {
+	.mobile-menu {
+		/* margin-left: 25px; 
+		margin-left:  30px; */
+		
+		
+	}
+	.nav-logo {
+		max-width: 145px;
+		margin-left: -20px;
+	}
+}
+
+@media (max-width: 991px) {
+	.mobile-menu {
+		/* visibility: hidden; */
+		display: none;
+	}
 }

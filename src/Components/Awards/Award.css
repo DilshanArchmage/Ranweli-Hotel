@@ -1,3 +1,21 @@
 .award-link{
     font-weight: normal;
 }
+.awh {
+	color: black;
+	background-color: #faf5ea;
+}
+
+@media(max-width:375px){
+  
+    .awh{
+        margin-left: 0px;
+		width: 103%;
+		margin-top: -160px;
+      }
+      .awd-footer{
+        margin-left: 45px;
+		margin-right: -45px;
+      }
+  
+  }

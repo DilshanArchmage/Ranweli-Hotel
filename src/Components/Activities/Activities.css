@@ -76,8 +76,9 @@
 
 @media(max-width:375px){
 	.Ah{
-		margin-left: 21px;
-		margin-top: -30px;
+		margin-left: 0px;
+		width: 103%;
+		margin-top: -160px;
 	}
 	.welcome-body {
 		
@@ -88,5 +89,9 @@
 	}
 	.cycling {
 		max-width: 100%;
+	}
+	.act-footer{
+		margin-left: 45px;
+		margin-right: -45px;
 	}
 }

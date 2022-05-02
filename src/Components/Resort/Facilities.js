@@ -23,13 +23,16 @@ export default function Facilities() {
 				<Row className="h">
 					<div className="col-md-12">
 						<div className="d-flex">
-							<p className="bird-subtitle1" id="r1">Restaurant and Bars</p>
+							
+					
 						</div>
 						<div className="birdwelcome-body">
+						<p className="bird-subtitler" style={{marginTop:'35px'}} id="r1">Restaurant and Bars</p>
 							<img
 								className="resortbird-watching"
 								// id="birdwelcome-body"
 								style={{ marginLeft: " -45px" }}
+								width="100%vw" style={{ padding: "0px" }} 
 								src={restaurant_bar}
 							/>
 							<p className="birdResortactivity-body">
@@ -89,7 +92,7 @@ export default function Facilities() {
 							</p>
 
 							<p className="bird-subtitle1" id="r2">Sports Facilities</p>
-							<img className="resortbird-cycling" src={sport} />
+							<img className="resortbird-cycling" width="100%vw" style={{ padding: "0px" }}  src={sport} />
 							<p className="birdResortactivity-body">
 								In order to preserve the tranquility and ambiance of the
 								property, Ranweli offers only soft-impact sports and games
@@ -125,7 +128,7 @@ export default function Facilities() {
 							</p>
 
 							<p className="bird-subtitle1" id='r3'>Shops</p>
-							<img className="resortbird-cycling" src={shopsBanner} />
+							<img className="resortbird-cycling" width="100%vw" style={{ padding: "0px" }}   src={shopsBanner} />
 
 							<p>
 								<b className="birdrest-subheading">
@@ -157,6 +160,7 @@ export default function Facilities() {
 							<p className="bird-subtitle1" id="r6">Evening Entertainment</p>
 							<img
 								className="resortbird-cycling"
+								width="100%vw" style={{ padding: "0px" }} 
 								src={eveningEntertainmentBanner}
 							/>
 							<p>
@@ -166,17 +170,17 @@ export default function Facilities() {
 							</p>
 
 							<ul className="birdactivity-list1">
-								<li style={{ listStyle: "circle" ,fontWeight:'normal' }}>
+								<li style={{ listStyle: "square" ,fontWeight:'normal' }}>
 									Cultural show / Sri Lankan Dance
 								</li>
-								<li style={{ listStyle: "circle",fontWeight:'normal'  }}>Live band</li>
-								<li style={{ listStyle: "circle" ,fontWeight:'normal' }}>Calypso band</li>
-								<li style={{ listStyle: "circle",fontWeight:'normal'  }}>Magic show</li>
-								<li style={{ listStyle: "circle" ,fontWeight:'normal' }}>Oriental band</li>
+								<li style={{ listStyle: "square",fontWeight:'normal'  }}>Live band</li>
+								<li style={{ listStyle: "square" ,fontWeight:'normal' }}>Calypso band</li>
+								<li style={{ listStyle: "square",fontWeight:'normal'  }}>Magic show</li>
+								<li style={{ listStyle: "square" ,fontWeight:'normal' }}>Oriental band</li>
 							</ul>
 
 							<p className="bird-subtitle1" id="r4">Ayurveda</p>
-							<img className="resortbird-cycling" src={AyurvedaYogaBanner} />
+							<img className="resortbird-cycling" width="100%vw" style={{ padding: "0px" }}  src={AyurvedaYogaBanner} />
 							<p className="birdResortactivity-body">
 								Ranweli's idyllic location provides tranquility and serenity
 								amidst an expanse of land covering over 22 acres and featuring
@@ -190,12 +194,12 @@ export default function Facilities() {
 							</p>
 
 							<a href="/sss" style={{textDecoration:'underline'}} className="home-link2">
-								<p style={{ marginLeft: "-40px" }}>More Ayurveda & Yoga</p>
+								<p className='fas-link' style={{ marginLeft: "-40px" }}>More Ayurveda & Yoga</p>
 							</a>
 
 							<p className="bird-subtitle1" id="r5">Other Facilities</p>
 
-							<img className="resortbird-cycling" src={otherFacilitiesBanner} />
+							<img className="resortbird-cycling" width="100%vw" style={{ padding: "0px" }}  src={otherFacilitiesBanner} />
 
 							<p>
 								<b className="birdrest-subheading">
@@ -203,11 +207,11 @@ export default function Facilities() {
 								</b>
 							</p>
 							<ul className="birdactivity-list1">
-								<li style={{ listStyle: "circle"  ,fontWeight:'normal'}}>Beach-front Pool</li>
-								<li style={{ listStyle: "circle"  ,fontWeight:'normal'}}>
+								<li style={{ listStyle: "square"  ,fontWeight:'normal'}}>Beach-front Pool</li>
+								<li style={{ listStyle: "square"  ,fontWeight:'normal'}}>
 									Seminar & Conference Facilities
 								</li>
-								<li style={{ listStyle: "circle" ,fontWeight:'normal' }}>
+								<li style={{ listStyle: "square" ,fontWeight:'normal' }}>
 									Internet Café, FAX & IDD facilities
 								</li>
 							</ul>

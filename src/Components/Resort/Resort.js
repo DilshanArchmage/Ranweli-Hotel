@@ -27,16 +27,17 @@ import "./Resort.css";
 import seperator from "../../assests/Images/seperator.png";
 import Facilities from "./Facilities";
 
+
 export default function Resort() {
 	return (
 		<div>
 			<Container>
-				<Row className="Rh">
+				<Row className="rsh">
 					<img width="100%vw" style={{ padding: "0px" }} src={the_resort} />
 
 					<div className="col-md-8">
 						<div className="d-flex">
-							<img className="birdimg" src={bird} />
+							<img className="birdimg"  src={bird} />
 
 							<h2 className="home-welcome">The Resort</h2>
 						</div>
@@ -67,7 +68,7 @@ export default function Resort() {
 								blends western standards of comfort and with the traditions of
 								indigenous Sri Lankan culture.
 							</p>
-							<img className="separator" src={seperator} />
+							<img className="separator" width="100%vw" style={{ padding: "0px" }}  src={seperator} />
 							<br></br>
 							<div className="col-md-12">
 								<br></br>
@@ -83,10 +84,11 @@ export default function Resort() {
 										style={{ listStyle: "none" }}
 										eventKey="home"
 										title="Facilities"
+										
 									>
 										<Facilities />
 									</Tab>
-									<Tab eventKey="profile" title="Activities">
+									<Tab eventKey="profile" title="Activities" id="activities">
 										<BirdResort />
 									</Tab>
 								</Tabs>
@@ -95,7 +97,7 @@ export default function Resort() {
 					</div>
 
 					<div className="col-md-4">
-						<img src={ranwelimap} />
+						<img width="100%vw" style={{ padding: "0px" }}  src={ranwelimap} />
 					</div>
 				</Row>
 				<Footer />

@@ -22,7 +22,7 @@ export default function Accomadation() {
 	return (
 		<div>
 			<Container>
-				<Row className=" h">
+				<Row className="ach">
 				<img width="100%vw" style={{padding:'0px'}} src={accomodation} />
 
 					
@@ -140,7 +140,7 @@ export default function Accomadation() {
 					<div className="col-md-4">
 						<Row>
 							<div className="col-md-12">
-								<img className="acco-img" src={room_types} />
+								<img className="acco-img" width="100%vw" src={room_types} />
 							</div>
 						</Row>
 					</div>
@@ -148,8 +148,11 @@ export default function Accomadation() {
 					<br></br>
 					<br></br>
 				</Row>
-
+                <div className="acc-footer">
 				<Footer />
+
+				</div>
+				
 			</Container>
 		</div>
 	);

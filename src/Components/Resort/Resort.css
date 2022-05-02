@@ -12,3 +12,16 @@
 li.nav-item {
     list-style: none;
 }
+
+.rsh {
+	color: black;
+	background-color: #faf5ea;
+}
+@media(max-width:375px){
+  
+    .rsh{
+          margin-left: 1px;
+          width: 110%;
+      }
+  
+  }

@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Row, Container, Button } from "react-bootstrap";
-
+import './EnvironmentPolicies.css'
 import seperator from "../../assests/Images/seperator.png";
 import bird from "../../assests/Images/kingfish.png";
 import responsibleTravelBanner from "../../assests/Images/responsibleTravelBanner.png";
@@ -21,7 +21,7 @@ export default function EnvironmentPolicies() {
 	return (
 		<div>
 			<Container>
-				<Row className="h">
+				<Row className="eh">
 				<img width="100%vw" style={{padding:'0px'}} src={inner_banner09} />
 
 						
@@ -135,10 +135,10 @@ export default function EnvironmentPolicies() {
 							</p>
 
 							<ul className="activity-list1">
-								<li style={{ listStyle: "circle",fontWeight:'normal'  }}>Solar energy for water heating</li>
-								<li style={{ listStyle: "circle",fontWeight:'normal'  }}>Solid/liquid waste treatment technology</li>
-								<li style={{ listStyle: "circle",fontWeight:'normal'  }}>Maximum use of recyclables</li>
-								<li style={{ listStyle: "circle",fontWeight:'normal'  }}>Organic vegetable gardens</li>
+								<li style={{ listStyle: "square",fontWeight:'normal'  }}>Solar energy for water heating</li>
+								<li style={{ listStyle: "square",fontWeight:'normal'  }}>Solid/liquid waste treatment technology</li>
+								<li style={{ listStyle: "square",fontWeight:'normal'  }}>Maximum use of recyclables</li>
+								<li style={{ listStyle: "square",fontWeight:'normal'  }}>Organic vegetable gardens</li>
 							</ul>
 							<br></br>
 
@@ -191,8 +191,8 @@ export default function EnvironmentPolicies() {
 
 					<div className="col-md-4">
 						<div className="col-md-12">
-							<a href="/resort"><img style={{ paddingTop: "20px" }} src={srilankanBanner} /></a>
-							<a href="/resort"><img style={{ paddingTop: "20px" }} src={BirdsBanners} /></a>
+							<a href="/resort"><img style={{ paddingTop: "20px" }} width="100%vw" src={srilankanBanner} /></a>
+							<a href="/resort"><img style={{ paddingTop: "20px" }} width="100%vw" src={BirdsBanners} /></a>
 						</div>
 					</div>
 				</Row>

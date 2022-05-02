@@ -21,7 +21,7 @@ export default function Home() {
 			<Container className="home">
 				<Row className="h">
 					<div className="slider">
-						<Slider />
+						{/* <Slider /> */}
 					</div>
 					<div className="col-md-8">
 						<div className="d-flex">
@@ -54,6 +54,8 @@ export default function Home() {
 									</h3>
 									<img
 										className="banner1 img-fluid mr-auto"
+										width="100%vw"
+										style={{ padding: "0px" }}
 										src={amenitiesBanner}
 									/>
 									<div className="list1 ">
@@ -88,11 +90,13 @@ export default function Home() {
 									</h3>
 									<img
 										className="banner1 img-fluid mr-auto"
+										width="100%vw"
+										style={{ padding: "0px" }}
 										src={activitiesBanner}
 									/>
 									<div className="list2 mr-auto">
 										<ul>
-											<a href="/resort/?#b1" className="links">
+											<a href="/resort/?#bird" className="links">
 												<li> Bird Watching</li>
 											</a>
 											<a href="/resort" className="links">
@@ -122,7 +126,7 @@ export default function Home() {
 							</Row>
 							<img className="separator" src={seperator} />
 
-							<div className="col-md-12">
+							<div className="video-gallery col-md-12">
 								<a href="/video">
 									<img
 										className="banner3 img-fluid ml-auto"
@@ -186,6 +190,7 @@ export default function Home() {
 							</a>
 							<a href="/resort">
 								<img
+									width="100%vw"
 									style={{ paddingTop: "20px" }}
 									className="banner6 img-fluid mr-auto"
 									src={BirdsBanners}

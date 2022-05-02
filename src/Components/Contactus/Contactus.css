@@ -30,3 +30,16 @@
 	margin: 5px;
     font-weight: bold;
 }
+
+.ch{
+	color: black;
+	background-color: #faf5ea;
+}
+
+@media (max-width: 375px) {
+	.ch {
+		margin-left: 0px;
+		width: 103%;
+		margin-top: -160px;
+	}
+}

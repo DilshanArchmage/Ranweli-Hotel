@@ -2,10 +2,12 @@ import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import "./SecondNavBar.css";
 import { NavLink } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 
 export default function SecondNavBar() {
 	return (
 		<div>
+			
 			<Navbar collapseOnSelect expand="lg" className="secondnavigation-bar">
 				<Container>
 					{/* <Navbar.Brand href="#home">
@@ -40,6 +42,7 @@ export default function SecondNavBar() {
 					</Navbar.Collapse>
 				</Container>
 			</Navbar>
+			
 		</div>
 	);
 }

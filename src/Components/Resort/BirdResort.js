@@ -50,17 +50,17 @@ export default function Activities() {
 								<b className="birdrest-subheading">Key Facts</b>
 							</p>
 							<ul className="birdactivity-list1">
-								<li style={{ listStyle: "circle", fontWeight: "normal" }}>
+								<li style={{ listStyle: "square", fontWeight: "normal" }}>
 									Accompanied by an expert ornithologist
 								</li>
-								<li style={{ listStyle: "circle", fontWeight: "normal" }}>
+								<li style={{ listStyle: "square", fontWeight: "normal" }}>
 									Duration: 3 hours, commencing at 07:00hrs. (Breakfast during
 									tour)
 								</li>
-								<li style={{ listStyle: "circle", fontWeight: "normal" }}>
+								<li style={{ listStyle: "square", fontWeight: "normal" }}>
 									Rates: US$ 30 per person; minimum 2 persons per tour
 								</li>
-								<li style={{ listStyle: "circle", fontWeight: "normal" }}>
+								<li style={{ listStyle: "square", fontWeight: "normal" }}>
 									Reservations in advance at the reception
 								</li>
 								<br></br>
@@ -87,16 +87,16 @@ export default function Activities() {
 								<b className="birdrest-subheading">Key Facts</b>
 							</p>
 							<ul className="birdactivity-list1">
-								<li style={{ listStyle: "circle", fontWeight: "normal" }}>
+								<li style={{ listStyle: "square", fontWeight: "normal" }}>
 								Accompanied by an expert naturalist
 								</li>
-								<li style={{ listStyle: "circle", fontWeight: "normal" }}>
+								<li style={{ listStyle: "square", fontWeight: "normal" }}>
 								Duration: 2 hours, commencing at 10:00hrs
 								</li>
-								<li style={{ listStyle: "circle", fontWeight: "normal" }}>
+								<li style={{ listStyle: "square", fontWeight: "normal" }}>
 								Rates: US$ 15 per person
 								</li>
-								<li style={{ listStyle: "circle", fontWeight: "normal" }}>
+								<li style={{ listStyle: "square", fontWeight: "normal" }}>
 								Reservation in advance with reception
 								</li>
 								
@@ -104,7 +104,7 @@ export default function Activities() {
 
 
 							<p className="bird-subtitle1">Cycling</p>
-							<img className="resortbird-cycling" src={cyclingBanner} />
+							<img className="resortbird-cycling" width="100%vw"  src={cyclingBanner} />
 							<p className="birdResortactivity-body">
 								Two exciting tours on bicycles through the lush countryside is
 								available. These provide an opportunity to enjoy the natural
@@ -120,29 +120,29 @@ export default function Activities() {
 								<b className="birdrest-subheading">Key Facts</b>
 							</p>
 							<ul className="birdactivity-list1">
-								<li style={{ listStyle: "circle", fontWeight: "normal" }}>
+								<li style={{ listStyle: "square", fontWeight: "normal" }}>
 									Accompanied by a Ranweli guide
 								</li>
-								<li style={{ listStyle: "circle", fontWeight: "normal" }}>
+								<li style={{ listStyle: "square", fontWeight: "normal" }}>
 									Tour 1: 16 kms/2 hr duration - US$ 10 per person; minimum 2
 									persons
 								</li>
-								<li style={{ listStyle: "circle", fontWeight: "normal" }}>
+								<li style={{ listStyle: "square", fontWeight: "normal" }}>
 									Tour 2: 26 kms/4 hr duration - US$ 15 per person ; minimum 2
 									persons
 								</li>
-								<li style={{ listStyle: "circle", fontWeight: "normal" }}>
+								<li style={{ listStyle: "square", fontWeight: "normal" }}>
 									Cycle Hires: Half day - US$ 05 per person, Full day: US$ 08
 									per person
 								</li>
-								<li style={{ listStyle: "circle", fontWeight: "normal" }}>
+								<li style={{ listStyle: "square", fontWeight: "normal" }}>
 									Reservation in advance with reception
 								</li>
 								<br></br>
 							</ul>
 
 							<p className="bird-subtitle1">River Cruise</p>
-							<img className="resortbird-cycling" src={riverCruiseBanner} />
+							<img className="resortbird-cycling" width="100%vw"  src={riverCruiseBanner} />
 							<p className="birdResortactivity-body">
 								Glide along the waterways by canoe or motor boat in the environs
 								of Ranweli and explore the unique ecosystem around the
@@ -173,16 +173,16 @@ export default function Activities() {
 								<b className="birdrest-subheading">Key Facts</b>
 							</p>
 							<ul className="birdactivity-list1">
-								<li style={{ listStyle: "circle", fontWeight: "normal" }}>
+								<li style={{ listStyle: "square", fontWeight: "normal" }}>
 									Accompanied by an expert naturalist
 								</li>
-								<li style={{ listStyle: "circle", fontWeight: "normal" }}>
+								<li style={{ listStyle: "square", fontWeight: "normal" }}>
 									Duration: 2 hours, commencing at 10:00hrs
 								</li>
-								<li style={{ listStyle: "circle", fontWeight: "normal" }}>
+								<li style={{ listStyle: "square", fontWeight: "normal" }}>
 									Rates: US$ 15 per person
 								</li>
-								<li style={{ listStyle: "circle", fontWeight: "normal" }}>
+								<li style={{ listStyle: "square", fontWeight: "normal" }}>
 									Reservation in advance with reception
 								</li>
 							</ul>
@@ -193,6 +193,7 @@ export default function Activities() {
 							<p className="bird-subtitle1">Craft Demonstrations</p>
 							<img
 								className="resortbird-cycling"
+								width="100%vw" 
 								src={craftDemonstrationsBanner}
 							/>
 							<p className="birdResortactivity-body">
@@ -208,29 +209,29 @@ export default function Activities() {
 								<b className="birdrest-subheading">Programmes</b>
 							</p>
 							<ul className="birdactivity-list1">
-								<li style={{ listStyle: "circle", fontWeight: "normal" }}>
+								<li style={{ listStyle: "square", fontWeight: "normal" }}>
 									Basket and mat weaving
 								</li>
-								<li style={{ listStyle: "circle", fontWeight: "normal" }}>
+								<li style={{ listStyle: "square", fontWeight: "normal" }}>
 									Cadjan weaving
 								</li>
-								<li style={{ listStyle: "circle", fontWeight: "normal" }}>
+								<li style={{ listStyle: "square", fontWeight: "normal" }}>
 									Pottery demonstration
 								</li>
-								<li style={{ listStyle: "circle", fontWeight: "normal" }}>
+								<li style={{ listStyle: "square", fontWeight: "normal" }}>
 									Rope making from Coir fibre
 								</li>
-								<li style={{ listStyle: "circle", fontWeight: "normal" }}>
+								<li style={{ listStyle: "square", fontWeight: "normal" }}>
 									Toddy tapping
 								</li>
-								<li style={{ listStyle: "circle", fontWeight: "normal" }}>
+								<li style={{ listStyle: "square", fontWeight: "normal" }}>
 									Preparation of treacle, jaggery and vinegar from the sap of a
 									palm flower
 								</li>
-								<li style={{ listStyle: "circle", fontWeight: "normal" }}>
+								<li style={{ listStyle: "square", fontWeight: "normal" }}>
 									Sri Lankan cookery
 								</li>
-								<li style={{ listStyle: "circle", fontWeight: "normal" }}>
+								<li style={{ listStyle: "square", fontWeight: "normal" }}>
 									Programme on the medicinal value of herbal drinks
 								</li>
 								<br></br>
@@ -239,6 +240,7 @@ export default function Activities() {
 							<p className="bird-subtitle1">Butterfly Tour</p>
 							<img
 								className="resortbird-cycling"
+								width="100%vw" 
 								src={butterflyWatchingBanner}
 							/>
 							<p className="birdResortactivity-body">
@@ -257,10 +259,10 @@ export default function Activities() {
 								<b>Key Facts</b>
 							</p>
 							<ul className="birdactivity-list1">
-								<li style={{ listStyle: "circle", fontWeight: "normal" }}>
+								<li style={{ listStyle: "square", fontWeight: "normal" }}>
 									Accompanied by an expert naturalist
 								</li>
-								<li style={{ listStyle: "circle", fontWeight: "normal" }}>
+								<li style={{ listStyle: "square", fontWeight: "normal" }}>
 									Reservation in advance with reception
 								</li>
 
@@ -268,7 +270,7 @@ export default function Activities() {
 							</ul>
 							<p className="bird-subtitle1">Nature Tours</p>
 
-							<img className="resortbird-cycling" src={natureToursBanner} />
+							<img className="resortbird-cycling" width="100%vw"  src={natureToursBanner} />
 
 							<p className="resortbird-subtitle2">
 								Anaivilundawa Wildlife Sanctuary and International RAMSAR Site
@@ -302,16 +304,16 @@ export default function Activities() {
 								<b>Key Facts</b>
 							</p>
 							<ul className="birdactivity-list1">
-								<li style={{ listStyle: "circle", fontWeight: "normal" }}>
+								<li style={{ listStyle: "square", fontWeight: "normal" }}>
 									Accompanied by an expert naturalist
 								</li>
-								<li style={{ listStyle: "circle", fontWeight: "normal" }}>
+								<li style={{ listStyle: "square", fontWeight: "normal" }}>
 									Air-conditioned car or mini van
 								</li>
-								<li style={{ listStyle: "circle", fontWeight: "normal" }}>
+								<li style={{ listStyle: "square", fontWeight: "normal" }}>
 									A picnic breakfast is included
 								</li>
-								<li style={{ listStyle: "circle", fontWeight: "normal" }}>
+								<li style={{ listStyle: "square", fontWeight: "normal" }}>
 									Rate US$ 75 per person; minimum 2 persons
 								</li>
 							</ul>
@@ -328,7 +330,7 @@ export default function Activities() {
 							</p>
 
 							<a href="/sss" className="home-link2">
-								<p style={{ marginLeft: "-40px" }}>
+								<p className="fas-link" style={{ marginLeft: "-40px" }}>
 									Please inquire for rates from the Reception.
 								</p>
 							</a>
@@ -336,6 +338,7 @@ export default function Activities() {
 							<p className="bird-subtitle1">Special Archaeological Tours</p>
 							<img
 								className="resortbird-cycling"
+								width="100%vw" 
 								src={archaeologicalToursBanner}
 							/>
 							<p style={{ marginLeft: "-40px" }} className="subtitle1">
@@ -373,10 +376,10 @@ export default function Activities() {
 								<b className="birdrest-subheading">Key Facts</b>
 							</p>
 							<ul className="birdactivity-list1">
-								<li style={{ listStyle: "circle", fontWeight: "normal" }}>
+								<li style={{ listStyle: "square", fontWeight: "normal" }}>
 									English speaking guide, air-conditioned car or mini van.
 								</li>
-								<li style={{ listStyle: "circle", fontWeight: "normal" }}>
+								<li style={{ listStyle: "square", fontWeight: "normal" }}>
 									US$ 125 per person – minimum 2 persons
 								</li>
 							</ul>
@@ -384,6 +387,7 @@ export default function Activities() {
 							<p className="bird-subtitle1">Wilpattu Tour</p>
 							<img
 								className="resortbird-cycling"
+								width="100%vw" 
 								src={wilpattu_tourBanner}
 							/>
 
@@ -431,17 +435,17 @@ export default function Activities() {
 								<b>Key Facts</b>
 							</p>
 							<ul className="birdactivity-list1">
-								<li style={{ listStyle: "circle", fontWeight: "normal" }}>
+								<li style={{ listStyle: "square", fontWeight: "normal" }}>
 									Rates: 200 US $ per person minimum 2 persons.
 								</li>
-								<li style={{ listStyle: "circle", fontWeight: "normal" }}>
+								<li style={{ listStyle: "square", fontWeight: "normal" }}>
 									Reservation one day in advance with reception, Guest relation
 									or Visitor Center
 								</li>
 							</ul>
 
 							<p className="bird-subtitle1">Kalpitiya Tour</p>
-							<img className="resortbird-cycling" src={Kalpitiya_tourBanner} />
+							<img className="resortbird-cycling" width="100%vw"  src={Kalpitiya_tourBanner} />
 							<p style={{ marginLeft: "-40px" }} className="subtitle1">
 								Dolphin watching
 							</p>
@@ -477,10 +481,10 @@ export default function Activities() {
 								<b>Key Facts</b>
 							</p>
 							<ul className="birdactivity-list1">
-								<li style={{ listStyle: "circle", fontWeight: "normal" }}>
+								<li style={{ listStyle: "square", fontWeight: "normal" }}>
 									Rates: 180 US $ per person minimum 2 persons
 								</li>
-								<li style={{ listStyle: "circle", fontWeight: "normal" }}>
+								<li style={{ listStyle: "square", fontWeight: "normal" }}>
 									Reservation one day in advance with reception, Guest relation
 									or Visitor Center
 								</li>

@@ -47,7 +47,7 @@ function App() {
 						{/* <div className="secondfooter">
 							<SecondNavBar />
 						</div> */}
-						
+						<MobileMenu/>
 						<TopNavBar />
 						<SecondNavBar />
 						<BrowserRouter>
