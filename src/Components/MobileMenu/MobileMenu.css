@@ -1,16 +1,4 @@
-.mobile-menu {
-	background: url("/src/assests/Images/header_bg.png") repeat;
-	margin-top: 20px;
-	padding-top: 1px;
-	padding-bottom: 0.3125rem;
-	
-	font-size: 1.25rem;
-	text-decoration: none;
-	white-space: nowrap;
-	padding-top: 15px;
-	height: 100px;
-	max-width: 100%;
-}
+
 div#responsive-navbar-nav\ nav-collapse {
 	background: url("/src/assests/Images/header_bg.png") #8b6a35 ;
 	padding: 15px;

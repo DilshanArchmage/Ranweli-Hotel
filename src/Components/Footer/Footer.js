@@ -9,63 +9,32 @@ import partners_5 from '../../assests/Images/partners_5.jpeg'
 import partners_6 from '../../assests/Images/partners_6.jpeg'
 import partners_7 from '../../assests/Images/partners_7.jpeg'
 import listmark from '../../assests/Images/listmark.jpeg'
-import styles from './List.Module.css'; 
+import styles from './List.Module.css';
 
 export default function Footer() {
   return (
     <div className='footer-body'>
         <Container>
-        <Row className='partners' >
-            {/* <div className='col-md-12'>
-                  <h5>Partners | </h5>
-                <div className='col-md-2'>
-                    <img src={partners_1}/>
-                </div>
-                <div className='col-md-2'>
-                <img src={partners_1}/>
-                    </div>
-
-               <div className='col-md-2'>
-               <img src={partners_1}/>
-                </div>
-
-               <div className='col-md-2'>
-               <img src={partners_1}/>
-                </div>
-
-               <div className='col-md-2'>
-               <img src={partners_1}/>
-                </div>
-
-               <div className='col-md-2'>
-               <img src={partners_1}/>
-                </div>
-                   */}
-              
-
-            {/* </div> */}
-
-          <div className='partner-list d-flex'>
-            
-              <div ><h5>Partners |</h5></div>
-              <div className='logoes d-flex'>
-              <a href=''><li ><img className='parentImage' width="100%vw"  src={partners_1}/></li></a>
-              <a href='https://ecoclub.com/'><li ><img className='parentImage' width="100%vw" src={partners_2}/></li></a>
-              <a href='https://www.responsibletravel.com/'><li ><img className='parentImage' width="100%vw" src={partners_3}/></li></a>
-              <a href='https://ecotourism.org/'><li ><img className='parentImage' width="100%vw"  src={partners_4}/></li></a>
-              <a href='http://www.birdlife.org/'><li ><img className='parentImage' width="100%vw" src={partners_5}/></li></a>
-              <a href=''><li ><img className='parentImage' width="100%vw"  src={partners_6}/></li></a>
-              <a href=''><li ><img className='parentImage' width="100%vw"  src={partners_7}/></li></a>
-             </div>
-             
-              
-          </div>
-         
+        <Row>
+        <div className='col-md-12' >
+        <div className='partners' >
+          <ul className='partner-list'>
+              <li ><h5>Partners |</h5></li>
+              <li><a href=''><img className='parentImage' width=""  src={partners_1}/></a></li>
+              <li><a href='https://ecoclub.com/'><img className='parentImage' width="" src={partners_2}/></a></li>
+              <li><a href='https://www.responsibletravel.com/'><img className='parentImage' width="" src={partners_3}/></a></li>
+              <li><a href='https://ecotourism.org/'><img className='parentImage' width=""  src={partners_4}/></a></li>
+              <li><a href='http://www.birdlife.org/'><img className='parentImage' width="" src={partners_5}/></a></li>
+              <li><a href=''><img className='parentImage' width=""  src={partners_6}/></a></li>
+              <li><a href=''><img className='parentImage' width=""  src={partners_7}/></a></li>
+          </ul>
+        </div>
+        </div>
         </Row>
         <Row>
           <div className='col-md-4'>
             <p className='footer-subhedding'>Contact Ranweli</p>
-            
+
               <div className='footerinfo' >
               <ul className=''>
               <li style={{listStyle:'square'}} className='footerinfo'> <img src={listmark}/>  Ranweli Holiday Village, Waikkal, Sri Lanka.</li>
@@ -74,14 +43,14 @@ export default function Footer() {
               <li style={{listStyle:'square'}} className='footerinfo'> <img src={listmark}/> E-Mail: ranweli@slt.lk</li>
               </ul>
               </div>
-            
+
 
           </div>
 
           <div className='col-md-4'>
 
           <p className='footer-subhedding'>Facilities</p>
-            
+
             <div className='footerinfo' >
             <ul className=''>
            <a href='/resort/?#r1' style={{textDecoration:'none'}}> <li style={{listStyle:'square'}} className='footerinfo'><img src={listmark}/> Restaurant and Bars</li></a>
@@ -90,16 +59,16 @@ export default function Footer() {
            <a href='/resort/?#r3' style={{textDecoration:'none'}}> <li style={{listStyle:'square'}} className='footerinfo'><img src={listmark}/> Eco/Jewellery Shop</li></a>
            <a href='/resort/?#r5' style={{textDecoration:'none'}}> <li style={{listStyle:'square'}} className='footerinfo'><img src={listmark}/> Beachfront Poolp</li></a>
            <a href='/resort/?#r6' style={{textDecoration:'none'}}><li style={{listStyle:'square'}} className='footerinfo'><img src={listmark}/> Evening Entertainment</li></a>
-          
+
             </ul>
             </div>
-            
+
             </div>
 
             <div className='col-md-4'>
 
             <p className='footer-subhedding'>Activities</p>
-            
+
             <div className='footerinfo' >
             <ul className=''>
             <a href='/resort' style={{textDecoration:'none'}}><li style={{listStyle:'square'}} className='footerinfo'><img src={listmark}/> Bird Watching</li></a>
@@ -108,16 +77,16 @@ export default function Footer() {
             <a href='/resort' style={{textDecoration:'none'}}><li style={{listStyle:'square'}} className='footerinfo'><img src={listmark}/> River Cruise</li></a>
             <a href='/resort' style={{textDecoration:'none'}}><li style={{listStyle:'square'}} className='footerinfo'><img src={listmark}/> Tours Outside Ranweli</li></a>
             <a href='/resort' style={{textDecoration:'none'}}><li style={{listStyle:'square'}} className='footerinfo'><img src={listmark}/> Butterfly Watching</li></a>
-          
+
             </ul>
             </div>
             </div>
-            
-           
+
+
         </Row>
-       
-         
-      
+
+
+
         </Container>
         <br>
             </br>
@@ -130,10 +99,9 @@ export default function Footer() {
           <p className='copyright'>Copyright © Ranweli Holiday Village 2013. All Rights Reserved.</p>
           <br></br>
          <p >Designed & Developed by Archmage</p>
-            
-            
+
+
           </div>
     </div>
   )
 }
-

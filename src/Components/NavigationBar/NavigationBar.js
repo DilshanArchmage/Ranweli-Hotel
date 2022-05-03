@@ -43,6 +43,33 @@ export default function NavigationBar() {
 								<Nav.Link href="/offers">Special Offers</Nav.Link>
 								<Nav.Link href="/contact">Contact us</Nav.Link>
 
+								<div className="second ">
+									<Nav.Link href="/" >
+										Home
+									</Nav.Link>
+									<Nav.Link href="/activity" >
+										Activity
+									</Nav.Link>
+									<a href="/resort" >
+										The Resort
+									</a>
+									<a href="/accomadation" >
+										Accomadation
+									</a>
+									<a href="/environment" >
+										Environment Policies
+									</a>
+									<a href="/ayurweda" >
+										Ayurveda
+									</a>
+									<a href="/wedding" className="secondnavlink-menu">
+										Weddings
+									</a>
+									<a href="/reservation" className="secondnavlink-menu">
+										Reservations
+									</a>
+								</div>
+
 								<div className="secondNav"></div>
 							</Nav>
 						</div>

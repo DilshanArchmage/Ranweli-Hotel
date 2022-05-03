@@ -1,3 +1,9 @@
+
+.mobile-menu{
+	display: none;
+}
+
+
 .top-nav {
 	background: url("../../assests/Images/header_bg.png");
 	padding-top: 14px;
@@ -62,6 +68,10 @@
 	.top-nav .container {
 		padding: 0;
 		overflow: hidden;
+	}
+
+	.mobile-menu{
+		display: block;
 	}
 }
 

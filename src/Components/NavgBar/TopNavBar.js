@@ -37,8 +37,34 @@ export default function TopNavBar() {
 								<Nav.Link href="/gallery">Gallery</Nav.Link>
 								<Nav.Link href="/offers">Special Offers</Nav.Link>
 								<Nav.Link href="/contact">Contact us</Nav.Link>
+
+								<div className="mobile-menu ">
+									<Nav.Link href="/" >
+										Home
+									</Nav.Link>
+									<Nav.Link href="/activity" >
+										Activity
+									</Nav.Link>
+									<Nav.Link href="/resort" >
+										The Resort
+									</Nav.Link>
+									<Nav.Link href="/accomadation" >
+										Accomadation
+									</Nav.Link>
+									<Nav.Link href="/environment" >
+										Environment Policies
+									</Nav.Link>
+									<Nav.Link href="/ayurweda" >
+										Ayurveda
+									</Nav.Link>
+									<Nav.Link href="/wedding" className="secondnavlink-menu">
+										Weddings
+									</Nav.Link>
+									<Nav.Link href="/reservation" className="secondnavlink-menu">
+										Reservations
+									</Nav.Link>
                              
-                               
+                               </div>
 							
 
 								<div className="secondNav"></div>
