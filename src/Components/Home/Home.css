@@ -1,0 +1,176 @@
+.h {
+	color: black;
+	background-color: #faf5ea;
+}
+.activity-body {
+    color: #635e54;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: justify;
+    padding-top: 12px;
+}
+
+.slider {
+	width: 100%vh;
+	padding: 0px;
+}
+
+.birdimg {
+	padding-top: 20px;
+}
+.home-welcome {
+	padding-top: 63px;
+	color: #a37931;
+
+	letter-spacing: -1px;
+	font-weight: bold;
+}
+.home-welcomep {
+
+	font-size: 17px;
+	color: #7bc236;
+	font-weight: bold;
+	font-style: italic;
+}
+.welcome-body {
+	color: #635e54;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13.6px;
+	text-align: justify;
+
+	
+}
+.home-link {
+	color: #0088cc;
+	font-weight: bold;
+	text-decoration: none;
+}
+.sub-headers {
+	color: #3ea2de;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 27px;
+	font-weight: normal;
+	line-height: 20px;
+
+	padding-top: 10px;
+	font-weight: 500;
+}
+.sub-headers2 {
+	color: #3ea2de;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 27px;
+	font-weight: normal;
+	line-height: 20px;
+
+	padding-top: 10px;
+	font-weight: 500;
+}
+.uper-body{
+	background-image: url('../../assests/Images/kingfish.png');
+	background-repeat: no-repeat;
+	padding-left: 100px;
+	margin-top: 20px;
+}
+
+
+ul li {
+	list-style: url(/src/assests/Images/mark.jpeg);
+	padding-left: 10px;
+	/* font-family: "Times New Roman", Times, serif; */
+	color: #755f47;
+	font-weight: 600;
+}
+.list1 {
+	padding-top: 10px;
+	
+	line-height: 25px;
+	
+}
+
+.list2 {
+	padding-top: 10px;
+	 
+	line-height: 25px;
+}
+
+.links {
+	text-decoration: none;
+}
+.home-link2 {
+	color: #d57a27;
+	font-size: 12px;
+	font-weight: bold;
+
+	cursor: pointer;
+	text-decoration: none;
+	position: relative;
+    right: -10px;
+}
+.home-link3 {
+	color: #d57a27;
+	font-size: 12px;
+	font-weight: bold;
+
+	cursor: pointer;
+	text-decoration: none;
+}
+.banner3 {
+	height: auto;
+	vertical-align: middle;
+	border: 0;
+	
+}
+
+.btn {
+	background: url(/src/assests/Images/btn.png) repeat !important;
+	background-repeat: repeat-y;
+	border-radius: 5px !important;
+	/* border: none !important; */
+	color: #fff !important;
+	text-shadow: none !important;
+	
+}
+
+.sub-headers1 {
+	color: #3ea2de;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 27px;
+	font-weight: normal;
+	line-height: 20px;
+
+	padding-top: 15px;
+	font-weight: 500;
+}
+
+.welcome-body1 {
+	color: #635e54;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: justify;
+	padding-top: 20px;
+}
+
+.separator2 {
+	width: 300px;
+}
+.welcome-body2 {
+	color: #635e54;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: justify;
+}
+.title1 {
+	
+
+	font-size: 13px;
+	color: #7bc236;
+	font-weight: bold;
+}
+@media(max-width:991px){
+	.uper-body{
+		background-image: none;
+	
+		padding-left: 0px;
+		margin-top: 0px;
+	}
+}

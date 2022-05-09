@@ -1,0 +1,36 @@
+.second-menu{
+    background:url('/src/assests/Images/nav-bg.png');
+    padding: 15px;
+    background-size: cover;
+    /* text-align: center; */
+    color: #875A29;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.secondnavlink-menu{
+    color: #875A29;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 20px;
+    
+}
+@media(max-width:991px){
+	.second-menu {
+	
+		display: none;
+	
+	}
+
+}
+@media(max-width:768px){
+	.secondnavigation-bar {
+	
+		visibility: hidden;
+		
+	
+	}
+
+}

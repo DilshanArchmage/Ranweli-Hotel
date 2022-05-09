@@ -1,0 +1,17 @@
+.acco-img {
+	padding-top: 40px;
+}
+
+.ach {
+	color: black;
+	background-color: #faf5ea;
+}
+.home-linkacm{
+	color: #d57a27;
+	font-size: 12px;
+	font-weight: bold;
+	cursor: pointer;
+	text-decoration: none;
+	position: relative;
+	
+}

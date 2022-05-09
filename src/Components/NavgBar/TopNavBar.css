@@ -1,0 +1,93 @@
+.mobile-menu {
+	display: none;
+}
+
+.top-nav {
+	background: url("../../assests/Images/header_bg.png");
+	z-index: 4;
+}
+.navbar-dark .navbar-nav .nav-link {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #875a25;
+	font-size: 12px;
+	text-decoration: none;
+	font-weight: bold;
+}
+.navg-links {
+	padding-top: 40px;
+}
+.navbar-expand-lg .navbar-collapse {
+	justify-content: end;
+}
+.navbar-dark .navbar-brand {
+	color: #fff;
+	padding-bottom: 0;
+	padding-top: 0;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+	color: black;
+	text-decoration: underline;
+}
+.fb-link {
+	max-width: 100%;
+	width: auto\9;
+	height: auto;
+	vertical-align: middle;
+	border: 0;
+	margin-top: -15px;
+}
+/* @media (max-width: 820px) {
+	.navigation-bar {
+		max-width: 704px;
+		margin-left: 50px;
+	}
+}
+@media (max-width: 768px) {
+	.navigation-bar {
+		max-width: 704px;
+		margin-left: 45px;
+	}
+} */
+
+@media (max-width: 991px) {
+	.navbar-dark .navbar-nav .nav-link {
+		/* color: rgba(255,255,255,.55); */
+		font-family: Arial, Helvetica, sans-serif;
+		color: #875a25;
+		font-size: 11px;
+		text-decoration: none;
+		font-weight: bold;
+		border-radius: 0px;
+		padding-left: 0px;
+		padding-right: 0px;
+		background: #ead2a5;
+		/* border: none; */
+		box-shadow: none;
+		border-top: 1px solid;
+		padding: 10px;
+	}
+	.top-nav .container {
+		padding: 0;
+		overflow: hidden;
+	}
+
+	.mobile-menu {
+		display: block;
+	}
+
+	.navigation-bar .extra-links {
+		right: 13px;
+		top: 6px;
+	}
+}
+
+/* @media (max-width: 360px) {
+	.nav-logo {
+		max-width: 150px;
+	}
+}
+@media (max-width: 280px) {
+	.nav-logo {
+		max-width: 100px;
+	}
+} */

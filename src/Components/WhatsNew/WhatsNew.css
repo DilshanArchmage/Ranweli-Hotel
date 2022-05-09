@@ -1,0 +1,196 @@
+.submit1{
+    color: #ffffff;
+	cursor: pointer;
+	display: inline-block;
+	line-height: 30px;
+	background: #000;
+	padding: 0px 20px 10px ;
+	vertical-align: middle;
+	font-size: 15px;
+    padding-bottom: 20px;
+    font-weight: bold;
+	min-width: 80px;
+	/* min-height: 20px; */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+
+	border: 1px solid transparent;
+	margin: 5px;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px !important;
+    border: none !important;
+}
+.timthumb{
+    border: 8px solid #FFFFFF;
+    box-shadow: 0 0 5px #9c9c9c;
+    float: left;
+  
+}
+th{
+	background-color: #996600;
+    color: #FFFFFF;
+   
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 11px;
+	padding: 10px;
+
+}
+tr{
+	background-color: white;
+	padding-left: 20px;
+}
+td{
+    color: #996600;
+    font-weight: bold;
+    text-decoration: none;
+}
+.whts-tab{
+	margin-top: 20px;
+}
+tbody, td, tfoot, th, thead, tr {
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0;
+    padding-left: 10px;
+}
+
+h1,
+/* p {
+  font-family: Lato;
+} */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  position: relative;
+}
+
+thead tr th {
+  font-weight: 500;
+  text-align: left;
+  background-color: #fafafa;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+th,
+td {
+  padding: 8px;
+  overflow-wrap: break-word;
+}
+
+.pagination-bar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.pagination-container {
+    display: flex;
+    list-style-type: none;
+}
+    .pagination-item {
+      padding: 0 12px;
+      height: 32px;
+      text-align: center;
+      margin: auto 4px;
+      color: rgba(0, 0, 0, 0.87);
+      display: flex;
+      box-sizing: border-box;
+      align-items: center;
+      letter-spacing: 0.01071em;
+      border-radius: 16px;
+      line-height: 1.43;
+      font-size: 13px;
+      min-width: 32px;
+    }
+      .dots:hover {
+        background-color: transparent;
+        cursor: pointer;
+      }
+      .dots:hover {
+        background-color: rgba(0, 0, 0, 0.04);
+        cursor: pointer;
+      }
+  
+    .selected {
+        background-color: rgba(0, 0, 0, 0.08);
+      }
+  
+      .arrow 
+        ::before {
+          position: relative;
+          /* top: 3pt; Uncomment this to lower the icons as requested in comments*/
+          content: '';
+          /* By using an em scale, the arrows will size with the font */
+          display: inline-block;
+          width: 0.4em;
+          height: 0.4em;
+          border-right: 0.12em solid rgba(0, 0, 0, 0.87);
+          border-top: 0.12em solid rgba(0, 0, 0, 0.87);
+        }
+  
+        .left {
+          transform: rotate(-135deg) translate(-50%);
+        }
+  
+        .right {
+          transform: rotate(45deg);
+        }
+      
+  
+    
+        .arrow::before {
+          border-right: 0.12em solid rgba(0, 0, 0, 0.43);
+          border-top: 0.12em solid rgba(0, 0, 0, 0.43);
+        }
+  
+        .arrow:hover {
+          background-color: transparent;
+          cursor: pointer;
+        }
+      
+    
+  .home-welcome{
+    padding-top: 63px;
+	color: #a37931;
+
+	
+	font-weight: bold;
+  font-size: 30px;
+  }
+  .wactivity-body{
+    color: #635e54;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: justify;
+	padding-top: 14px;
+  }
+  .kactivity-body{
+    color: #635e54;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: justify;
+    /* padding-top: px; */
+  }
+
+  .echoactivity-body{
+    color: #635e54;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: justify;
+    padding-top: 20px;
+  
+  }
+
+  .wh {
+    color: black;
+    background-color: #faf5ea;
+  }
+  .pointer {
+    cursor: pointer;
+  }

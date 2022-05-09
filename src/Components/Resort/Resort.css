@@ -1,0 +1,19 @@
+.Rh{
+	
+		color: black;
+		background-color: #faf5ea;
+		width: 100%vw;
+	
+}
+.head-img {
+	max-width: fit-content;
+}
+
+li.nav-item {
+    list-style: none;
+}
+
+.rsh {
+	color: black;
+	background-color: #faf5ea;
+}
